@@ -1,0 +1,12 @@
+.margin-h{
+	margin-top: 80px;
+}
+.group_chk{
+	background-color: #fff;
+    border-color: #ddd;
+    border-radius: 4px 4px 0 0;
+    border-width: 1px;
+    box-shadow: none;
+    margin-left: 0;
+    margin-right: 0;
+}
