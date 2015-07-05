@@ -36,7 +36,7 @@ function newsFileFilst($news_id){
 
 function portfolioN(){
     global $mysqli;
-    if($result = $mysqli->query("SELECT a.*, b.id,b.name as fileNme FROM w_na_portfolio a, w_na_portfolio_file b
+    if($result = $mysqli->query("SELECT a.*, b.name as fileNme FROM w_na_portfolio a, w_na_portfolio_file b
         where a.id = b.na_portfolio_id
         and b.id = (select min(id) from w_na_portfolio_file where na_portfolio_id = a.id and company = 'Newage') ")){
         return $result;
@@ -46,10 +46,44 @@ function portfolioN(){
 
 function portfolioA(){
     global $mysqli;
-    if($result = $mysqli->query("SELECT a.*, b.id,b.name as fileNme FROM w_na_portfolio a, w_na_portfolio_file b
+    if($result = $mysqli->query("SELECT a.*, b.name as fileNme FROM w_na_portfolio a, w_na_portfolio_file b
         where a.id = b.na_portfolio_id
         and b.id = (select min(id) from w_na_portfolio_file where na_portfolio_id = a.id and company = 'Address') ")){
         return $result;
     }
     $result->close();
+}
+
+function portfolioQurery($id){
+    global $mysqli;
+    if($result = $mysqli->query("select * from w_na_portfolio where id = '$id' ")){
+        if ($row = $result->fetch_assoc()) {
+                return $row;
+            }
+    }
+    $result->close();
+    
+}
+function portfolioFile($id){
+    global $mysqli;
+    if($result = $mysqli->query("select * from w_na_portfolio_file where na_portfolio_id = '$id' ")){
+        return $result;            
+    }
+    $result->close();
+    
+}
+
+function portfolioLast($company){
+    global $mysqli;
+    if($result = $mysqli->query("
+            select a.*,b.name  from w_na_portfolio a, w_na_portfolio_file b 
+            where company = '$company'
+            and a.id = b.na_portfolio_id
+            and b.id = (select min(id) FROM w_na_portfolio_file where na_portfolio_id = a.id)
+            ORDER BY id DESC LIMIT 5 "
+            )){
+        return $result;            
+    }
+    $result->close();
+    
 }

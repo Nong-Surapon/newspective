@@ -930,7 +930,7 @@ include_once("includes/functions-web.php");
             ?>
             <div class="col-md-4 col-lg-4">
                 <!-- normal -->
-                <div class="ih-item square effect3 bottom_to_top"><a href="#">
+                <div class="ih-item square effect3 bottom_to_top"><a href="portfolio.php?id=<?php echo $nport["id"];?>">
                         <div class="img"><img src="webadmin/file/portfolio/<?php echo $nport["fileNme"];?>"></div>
                         <div class="info">
                             <h3><?php echo $nport["en_title"];?></h3>
@@ -1260,7 +1260,7 @@ include_once("includes/functions-web.php");
             ?>
             <div class="col-md-4 col-lg-4">
                 <!-- normal -->
-                <div class="ih-item square effect3 bottom_to_top"><a href="#">
+                <div class="ih-item square effect3 bottom_to_top"><a href="portfolio.php?id=<?php echo $aport["id"];?>">
                         <div class="img"><img src="webadmin/file/portfolio/<?php echo $aport["fileNme"];?>"></div>
                         <div class="info">
                             <h3><?php echo $aport["en_title"];?></h3>
