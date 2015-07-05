@@ -87,3 +87,34 @@ function portfolioLast($company){
     $result->close();
     
 }
+
+function newsQuery(){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT * FROM w_na_portfolio order by id desc")){
+        return $result;
+    }
+}
+
+function newsPic($id){
+    global $mysqli;
+    if($result = $mysqli->query("select a.*,b.name  from w_na_portfolio a, w_na_portfolio_file b 
+        where 
+        a.id = b.na_portfolio_id
+        and b.id = (select min(id) FROM w_na_portfolio_file where na_portfolio_id = a.id)
+        and a.id = '$id'
+        ORDER BY id DESC LIMIT 5"))
+            {
+         if ($row = $result->fetch_assoc()) {
+                return $row["name"];
+            }
+    }
+}
+
+function newsEidt($id){
+      global $mysqli;
+    if($result = $mysqli->query("select * from w_na_portfolio where id ='$id' ")){
+        if ($row = $result->fetch_assoc()) {
+                return $row;
+            }
+    }
+}

@@ -35,8 +35,10 @@ include_once("inc_session.php");
 <body>
     <?php
     include_once("../includes/conn.php");
-    include_once("../includes/functions.php");
+    include_once("../includes/functions-web.php");
     include_once("nav.php");
+    $newsEidt = newsEidt($_GET["id"])
+    
     ?>
 
 <div class="container">
@@ -52,10 +54,10 @@ include_once("inc_session.php");
             <div class="col-md-6">
                 <h3>Company</h3>                        
                 <div class="radio">
-                    <label><input type="radio" name="company" value="Newage" checked>Newspective Newage</label>
+                    <label><input type="radio" name="company" value="Newage" <?php if($newsEidt["company"] == "Newage"){ echo "checked";}?> >Newspective Newage</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="company" value="Address">Newspective Address</label>
+                    <label><input type="radio" name="company" value="Address" <?php if($newsEidt["company"] == "Address"){ echo "checked";}?> >Newspective Address</label>
                 </div>                      
             </div>
             <div class="col-md-6"></div>
@@ -64,20 +66,20 @@ include_once("inc_session.php");
             <div class="col-md-6">
                 <h3>For english</h3>
                 <label class="control-label" for="en_title">Title:</label>
-                <input type="text" class="form-control" maxlength="255" id="en_title" name="en_title" >
+                <input type="text" class="form-control" maxlength="255" id="en_title" name="en_title" value="<?php echo $newsEidt["en_title"];?>" >
                 <label class="control-label" for="en_desc">Descination:</label>
-                <input type="text" class="form-control" maxlength="255" id="en_desc" name="en_desc" >
+                <input type="text" class="form-control" maxlength="255" id="en_desc" name="en_desc" value="<?php echo $newsEidt["en_desc"];?>" >
                 <label for="en_detail">Detail:</label>
-                <textarea class="form-control" rows="5" id="en_detail" name="en_detail"></textarea>
+                <textarea class="form-control" rows="5" id="en_detail" name="en_detail"><?php echo $newsEidt["en_detail"];?></textarea>
             </div>
             <div class="col-md-6">
                 <h3>For thai</h3>
                 <label class="control-label" for="th_title">Title:</label>
-                <input type="text" class="form-control" maxlength="255" id="th_title" name="th_title" >
+                <input type="text" class="form-control" maxlength="255" id="th_title" name="th_title" value="<?php echo $newsEidt["th_title"];?>" >
                 <label class="control-label" for="th_desc">Descination:</label>
-                <input type="text" class="form-control" maxlength="255" id="th_desc" name="th_desc" >
+                <input type="text" class="form-control" maxlength="255" id="th_desc" name="th_desc" value="<?php echo $newsEidt["th_desc"];?>" >
                 <label for="th_detail">Detail:</label>
-                <textarea class="form-control" rows="5" id="th_detail" name="th_detail"></textarea>
+                <textarea class="form-control" rows="5" id="th_detail" name="th_detail"><?php echo $newsEidt["th_detail"];?></textarea>
             </div>
         </div>
         <div class="row">

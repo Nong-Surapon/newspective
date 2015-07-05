@@ -1,3 +1,6 @@
+<?php
+include_once("inc_session.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,28 +39,37 @@
     include_once("nav.php");
     ?>
     <div class="container" style="margin-top:80px;">
-        <h1>List :: news&activities</h1><br>
+        <h1>List :: Portfolio Newage address</h1><br>
         <div class="table-responsive">
           <table class="table">
             <thead>
                 <tr>
                     <th>No.</th>
+                    <th>Photo.</th>
                     <th>List</th>
+                    <th>Company</th>
                     <th>More</th>
                     <th>Edit</th>
                     <th>Delet</th>
                 </tr>
             </thead>
             <tbody>
-               
+                <?php
+                $i=0;
+                    $newsQuery =  newsQuery();
+                    while ($row = $newsQuery->fetch_assoc()) {
+                      $i++;     
+                ?>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><?php echo $i;?></td>
+                    <td><img src="file/portfolio/<?php echo newsPic($row["id"])?>" alt="" width="100"></td>
+                    <td><?php echo $row["en_title"]?></td>
+                    <td><?php echo $row["company"]?></td>
+                    <td><a class="btn btn-default" href="../portfolio.php?id=<?php echo $row["id"];?>" target="_bank"><span class="glyphicon glyphicon-search"></span></a></td>
+                    <td><a class="btn btn-default" href="na-portfolio-edit.php?id=<?php echo $row["id"];?>"><span class="glyphicon glyphicon-cog"></span></a></td>
+                    <td><a class="btn btn-default" href="na-portfolio-del?id=<?php echo $row["id"];?>"><span class="glyphicon glyphicon-trash"></span></a></td>
                 </tr>
-              
+              <?php } ?>
             </tbody>
 
 

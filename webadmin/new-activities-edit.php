@@ -32,7 +32,7 @@
 <body>
     <?php
     include_once("../includes/conn.php");
-    include_once("../includes/functions.php");
+    include_once("../includes/functions-web.php");
     ?>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">

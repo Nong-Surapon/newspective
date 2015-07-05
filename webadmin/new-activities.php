@@ -35,7 +35,7 @@ include_once("inc_session.php");
 <body>
     <?php
     include_once("../includes/conn.php");
-    include_once("../includes/functions.php");
+    include_once("../includes/functions-web.php");
     include_once("nav.php");
     ?>
 
@@ -144,7 +144,7 @@ $(function(){
 });
 
 </script>
-<script src="<?php echo $domainName;?>/js/bootstrap.min.js"></script> 
+<script src="../js/bootstrap.min.js"></script> 
 
 </body>
 </html>
