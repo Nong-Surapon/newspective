@@ -876,36 +876,36 @@ include_once("includes/functions-web.php");
                 <!-- masterslider -->
                 <div class="master-slider" id="teamslider">
                     <div class="ms-slide">
-                        <img src="assets/master-slider/style/blank.gif" data-src="assets/images/team-1.jpg" alt="lorem ipsum dolor sit"/>  
+                        <img src="assets/master-slider/style/blank.gif" data-src="img/Nattapoom.jpg" alt="lorem ipsum dolor sit"/>  
 
                         <div class="ms-info text-center">
                             <h3>Mr.Nattapoom Ratchayakorn</h3>
                             <h4>Group General Manager</h4>
-                            <p class="email">E-Mail: <a href="#">nattapoom@newspective.co.th</a></p>
+                            <p class="email">E-Mail: <span class="colored-text">nattapoom@newspective.co.th</span></p>
                             <p>Former activity lover student who started his first career at M=OMD Thailand, followed by Dentsu Media Palette (Thailand) and began his own company at the age of 25. Nattapoom has over 10 years of marketing experiences.</p>
-                            <p class="email">Mobile: <a href="#">081-439-5533</a></p>
+                            <p class="email">Mobile: <span class="colored-text">081-439-5533</span></p>
                         </div>     
                     </div><!--slide item-->
                     <div class="ms-slide">
-                        <img src="assets/master-slider/style/blank.gif" data-src="assets/images/team-2.jpg" alt="lorem ipsum dolor sit"/>  
+                        <img src="assets/master-slider/style/blank.gif" data-src="img/Mananya.jpg" alt="lorem ipsum dolor sit"/>  
 
                         <div class="ms-info text-center">
                             <h3>Miss Mananya Teyarajkul</h3>
                             <h4>Associate Business Director</h4>
-                            <p class="email">E-Mail: <a href="#">mananya@newspective.co.th</a></p>
+                            <p class="email">E-Mail: <span class="colored-text">mananya@newspective.co.th</span></p>
                             <p>Former activity lover student who started her career at Newspective since 9 years ago as fresh graduate, Mananya is the important pillar for business development with clients. She has outstanding personality, quick, always come up with several ideas and love her clients like family members. Currently, Mananya is in charge of event business for Newspective.</p>
-                            <p class="email">Mobile: <a href="#">081-625-2587</a></p>
+                            <p class="email">Mobile: <span class="colored-text">081-625-2587</span></p>
                         </div>     
                     </div><!--slide item-->
                     <div class="ms-slide">
-                        <img src="assets/master-slider/style/blank.gif" data-src="assets/images/team-3.jpg" alt="lorem ipsum dolor sit"/>  
+                        <img src="assets/master-slider/style/blank.gif" data-src="img/Nuengruethai.jpg" alt="lorem ipsum dolor sit"/>  
 
                         <div class="ms-info text-center">
                             <h3>Miss Nuengruethai Bangnachat</h3>
                             <h4>Media Manager</h4>
-                            <p class="email">E-Mail: <a href="#">nuengruethai@newspective.co.th</a></p>
+                            <p class="email">E-Mail: <span class="colored-text">nuengruethai@newspective.co.th</span></p>
                             <p>Former bright marketing student who studied what she loves and further work on it as a career, Nuengruethai joined Newspective since 7 years ago and has been playing important role to expand new media business for the company. She may be a small lady but very straight forward, precise and love her clients like family members as well. Currently, Neungruethai is focusing on building up a consistent media business for the company.</p>
-                            <p class="email">Mobile: <a href="#">086-880-4466</a></p>
+                            <p class="email">Mobile: <span class="colored-text">086-880-4466</span></p>
                         </div>     
                     </div><!--slide item-->                                
                 </div>
@@ -930,7 +930,7 @@ include_once("includes/functions-web.php");
             ?>
             <div class="col-md-4 col-lg-4">
                 <!-- normal -->
-                <div class="ih-item square effect3 bottom_to_top"><a href="portfolio.php?id=<?php echo $nport["id"];?>">
+                <div class="ih-item square effect3 bottom_to_top" style="margin:20px"><a href="portfolio.php?id=<?php echo $nport["id"];?>">
                         <div class="img"><img src="webadmin/file/portfolio/<?php echo $nport["fileNme"];?>"></div>
                         <div class="info">
                             <h3><?php echo $nport["en_title"];?></h3>
@@ -951,9 +951,9 @@ include_once("includes/functions-web.php");
     </div>
 
     <div class="container">
-        <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
-            <img src="assets/images/team-3.jpg" alt="..." class="img-thumbnail">
-        </p>
+        <div class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
+            <img width="100%" src="img/Logo_cus.jpg">
+        </div>
     </div>
 
     <!-- ############################################ END Newspective newage ############################-->
@@ -1015,7 +1015,7 @@ include_once("includes/functions-web.php");
                                 <ul class="slides">
                                     <li>
                                         <div class="testi-slider-item">
-                                            <img src="assets/images/team-1.jpg" alt="">
+                                            <img src="img/Nattapoom.jpg" alt="">
                                             <h6>Mr.Nattapoom Ratchayakorn - <span class="colored-text">Group General Manager</span></h6>
                                             <p>
                                                 Started this business with love and passion, Nattapoom aims to help everyone getting a nice accommodation that creates everyday happiness.
@@ -1037,7 +1037,7 @@ include_once("includes/functions-web.php");
 
                                     <li>
                                         <div class="testi-slider-item">
-                                            <img src="assets/images/team-2.jpg" alt="">
+                                            <img src="img/Poompan.jpg" alt="">
                                             <h6>Mr. Poompan Pattaranutaporn - <span class="colored-text">Finance Director (Board Member)</span></h6>                                        
                                             <p>
                                                 An auditor, financier, and real estate owner, Poompan has direct experiences from doing his personal business for more than a decade and will
@@ -1058,7 +1058,7 @@ include_once("includes/functions-web.php");
 
                                     <li>
                                         <div class="testi-slider-item">
-                                            <img src="assets/images/team-3.jpg" alt="">
+                                            <img src="img/Muchaklit.jpg" alt="">
                                             <h6>Mr. Muchaklit Niwatkannumart - <span class="colored-text">Private Property Partner-Director (Board Member)</span></h6>
                                             <p>
                                                 High experienced sales person who had sold almost everything but has special interest in real estate. Muchaklit is considered as one of the top sales person 
@@ -1435,7 +1435,7 @@ include_once("includes/functions-web.php");
                                     </div>
                                     <img id="captcha" src="assets/form/library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
                                     <a href="#" onclick="document.getElementById('captcha').src = 'assets/form/library/vender/securimage/securimage_show.php?' + Math.random();
-                                            return false" class="btn btn-info btn-sm"><i class="ion-refresh"></i> Show a Different Image</a><br/>
+                                            return false" class="btn btn-dark-bg btn-sm"><i class="ion-refresh"></i> Show a Different Image</a><br/>
                                     <div class="form-group" style="margin-top: 10px;">
                                         <label class="control-label" for="captcha_code">Text Within Image *</label>
                                         <div>

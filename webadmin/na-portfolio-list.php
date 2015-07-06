@@ -67,7 +67,7 @@ include_once("inc_session.php");
                     <td><?php echo $row["company"]?></td>
                     <td><a class="btn btn-default" href="../portfolio.php?id=<?php echo $row["id"];?>" target="_bank"><span class="glyphicon glyphicon-search"></span></a></td>
                     <td><a class="btn btn-default" href="na-portfolio-edit.php?id=<?php echo $row["id"];?>"><span class="glyphicon glyphicon-cog"></span></a></td>
-                    <td><a class="btn btn-default" href="na-portfolio-del?id=<?php echo $row["id"];?>"><span class="glyphicon glyphicon-trash"></span></a></td>
+                    <td><a class="btn btn-default" href="na-portfolio-del.php?id=<?php echo $row["id"];?>" onclick="return confirm('Are you sure?')"><span class="glyphicon glyphicon-trash"></span></a></td>
                 </tr>
               <?php } ?>
             </tbody>

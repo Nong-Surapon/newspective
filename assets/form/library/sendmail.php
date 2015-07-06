@@ -3,7 +3,7 @@
   session_start();
  
   //add you e-mail address here
-  define("MY_EMAIL", "mylifedesign143@gmail.com");
+  define("MY_EMAIL", "surapon@newspective.co.th,admin@newspective.co.th");
  
   /**
    * Sets error header and json error message response.
@@ -47,7 +47,7 @@
   }
  
   //try to send the message
-  if(mail(MY_EMAIL, "Feedback Form Results", setMessageBody($_POST["name"], $message), "From: $email")) {
+  if(mail(MY_EMAIL, "Newspective Contact", setMessageBody($_POST["name"], $message), "From: $email")) {
     echo json_encode(array('message' => 'Your message was successfully submitted.'));
   } else {
     header('HTTP/1.1 500 Internal Server Error');

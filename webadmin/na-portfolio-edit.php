@@ -49,7 +49,7 @@ include_once("inc_session.php");
             </div>
         </div>
     </div>
-    <form name="form1" class="form-signin" role="form" method="post" action="na-portfolio-add.php" enctype="multipart/form-data">
+    <form name="form1" class="form-signin" role="form" method="post" action="na-portfolio-update.php" enctype="multipart/form-data">
         <div class="row">
             <div class="col-md-6">
                 <h3>Company</h3>                        
@@ -84,38 +84,46 @@ include_once("inc_session.php");
         </div>
         <div class="row">
             <h3>Upload File <span class="glyphicon glyphicon-picture"></span> <span class="glyphicon glyphicon-film"></span></h3>
-            <br>ขนาดรูป 500*333 px<br>
+            <br>ขนาดรูป 500*333 px<br><br>
             <table>
                 <thead>
-                    <tr >
+                    <tr>
+                        <th>Picture</th>
                         <th>File</th>           
                         <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
-
-                    <tr id="inputForm" class="inputForm">
+                    
+                    <tr id="inputForm" class="inputForm"> 
+                        <td><input type="hidden" name="fileNme[]" value=""></td>
                         <td><input name="file_[]" type="file"></td>                    
                         <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
                     </tr>
+                    <?php
+                    $i = 0;
+                    $porfolioFile = porfolioFile($newsEidt["id"]);
+                    while ($FileNme = $porfolioFile->fetch_assoc()) {
+                    $i++
+                    ?>
                     <tr class="inputForm">
+                        <td>
+                            <img style="margin:10px;" src="file/portfolio/<?php echo $FileNme["name"]?>" width="100">
+                            <input type="hidden" name="fileNme[]" value="<?php echo $FileNme["name"]?>">
+                        </td> 
                         <td><input name="file_[]" type="file"></td>                    
-                        <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
+                        <td><a href="delPic.php?id=<?php echo $_GET['id'];?>&name=<?php echo $FileNme["name"];?>&countId=<?php echo $FileNme["countId"]?>&seq=<?php echo $i?>"  class="btn btn-danger" onclick="return confirm('Are you sure?')"><span class="glyphicon glyphicon-trash"></span></a></td>
                     </tr>
-                    <tr class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
-                        <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
-                    </tr>
-                    <tr class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
-                        <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
-                    </tr>
+                        <?php } ?>
+                    
                     <tr class="inputForm-add">
-                        <td>&nbsp;</td>                    
+                        <td><input type="hidden" name="countOld" value="<?php echo $i+1;?>"></td>
+                        <td><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"></td>                    
                         <td>&nbsp;</td>
                     </tr> 
                     <tr class="inputForm-add">
-                        <td></td>                    
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>                    
                         <td class="deleteRow"><button type="button" id="add" class="addMoreRow btn btn-default"><span class="glyphicon glyphicon-plus"></span></button></td>
                     </tr>          
                 </tbody>

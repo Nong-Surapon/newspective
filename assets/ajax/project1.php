@@ -29,7 +29,7 @@ $row = newsActivitiesFetch($_GET["id"])
         <div class="cbp-l-inline-title"><?php echo $row["en_title"];?></div>
         <div class="cbp-l-inline-subtitle"><?php echo $row["en_desc"]?></div>
         <div class="cbp-l-inline-desc"><?php echo $row["en_detail"]?></div>
-        <a href="#" target="_blank" class="cbp-l-inline-view">More</a>
+        <a href="news-activities.php?id=<?php echo $row["id"];?>" target="_blank" class="cbp-l-inline-view">More</a>
     </div>
 </div>
 

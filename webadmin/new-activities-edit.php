@@ -1,10 +1,13 @@
+<?php
+include_once("inc_session.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EDIT DATA NEWS $ ACTIVITIES</title>
+    <title>Edit News&Activities</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!--<link href="../css/style.css" rel="stylesheet">-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -33,46 +36,38 @@
     <?php
     include_once("../includes/conn.php");
     include_once("../includes/functions-web.php");
+    include_once("nav.php");
+    $newsEidt = newsEidtAll($_GET["id"])
+    
     ?>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Web Admin</a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">file</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</div><!--/.nav-collapse -->
-</div>
-</nav>
 
 <div class="container">
     <div class="row">
         <div class="margin-h">
             <div class="text-center">
-                <h1>UPLOAD DATA NEWS $ ACTIVITIES</h1>
+                <h1>Portfolio Newage & Address</h1>
             </div>
         </div>
     </div>
-    <form name="form1" class="form-signin" role="form" method="post" action="new-activities-add.php" enctype="multipart/form-data">
+    <form name="form1" class="form-signin" role="form" method="post" action="new-activities-update.php" enctype="multipart/form-data">
         <div class="row">
             <div class="col-md-6">
-                <h3>Group</h3>                        
-                <div class="checkbox">
-                    <label><input type="checkbox" name="new" value="News">News</label>
+                <h3>Group</h3>
+                <?php if($newsEidt["n_group"]=="News Activities"){?>
+                <div class="radio">
+                    <label><input type="checkbox" name="new" value="News" checked > News</label>
                 </div>
-                <div class="checkbox">
-                    <label><input type="checkbox" name="activities" value="Activities">Activities</label>
-                </div>                      
+                <div class="radio">
+                    <label><input type="checkbox" name="activities" value="Activities" checked> Activities</label>
+                </div>
+                <?php }else{?>
+                <div class="radio">
+                    <label><input type="checkbox" name="new" value="News" <?php if($newsEidt["n_group"] == "News"){ echo "checked";}?> > News</label>
+                </div>
+                <div class="radio">
+                    <label><input type="checkbox" name="activities" value="Activities" <?php if($newsEidt["n_group"] == "Activities"){ echo "checked";}?> > Activities</label>
+                </div>
+                <?php }?>
             </div>
             <div class="col-md-6"></div>
         </div>
@@ -80,55 +75,64 @@
             <div class="col-md-6">
                 <h3>For english</h3>
                 <label class="control-label" for="en_title">Title:</label>
-                <input type="text" class="form-control" maxlength="255" id="en_title" name="en_title" >
+                <input type="text" class="form-control" maxlength="255" id="en_title" name="en_title" value="<?php echo $newsEidt["en_title"];?>" >
                 <label class="control-label" for="en_desc">Descination:</label>
-                <input type="text" class="form-control" maxlength="255" id="en_desc" name="en_desc" >
+                <input type="text" class="form-control" maxlength="255" id="en_desc" name="en_desc" value="<?php echo $newsEidt["en_desc"];?>" >
                 <label for="en_detail">Detail:</label>
-                <textarea class="form-control" rows="5" id="en_detail" name="en_detail"></textarea>
+                <textarea class="form-control" rows="5" id="en_detail" name="en_detail"><?php echo $newsEidt["en_detail"];?></textarea>
             </div>
             <div class="col-md-6">
                 <h3>For thai</h3>
                 <label class="control-label" for="th_title">Title:</label>
-                <input type="text" class="form-control" maxlength="255" id="th_title" name="th_title" >
+                <input type="text" class="form-control" maxlength="255" id="th_title" name="th_title" value="<?php echo $newsEidt["th_title"];?>" >
                 <label class="control-label" for="th_desc">Descination:</label>
-                <input type="text" class="form-control" maxlength="255" id="th_desc" name="th_desc" >
+                <input type="text" class="form-control" maxlength="255" id="th_desc" name="th_desc" value="<?php echo $newsEidt["th_desc"];?>" >
                 <label for="th_detail">Detail:</label>
-                <textarea class="form-control" rows="5" id="th_detail" name="th_detail"></textarea>
+                <textarea class="form-control" rows="5" id="th_detail" name="th_detail"><?php echo $newsEidt["th_detail"];?></textarea>
             </div>
         </div>
         <div class="row">
             <h3>Upload File <span class="glyphicon glyphicon-picture"></span> <span class="glyphicon glyphicon-film"></span></h3>
+            <br>ขนาดรูป 500*333 px<br><br>
             <table>
                 <thead>
-                    <tr >
+                    <tr>
+                        <th>Picture</th>
                         <th>File</th>           
                         <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
-
-                    <tr id="inputForm" class="inputForm">
+                    
+                    <tr id="inputForm" class="inputForm"> 
+                        <td><input type="hidden" name="fileNme[]" value=""></td>
                         <td><input name="file_[]" type="file"></td>                    
                         <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
                     </tr>
+                    <?php
+                    $i = 0;
+                    $porfolioFile = newsFileByID($newsEidt["id"]);
+                    while ($FileNme = $porfolioFile->fetch_assoc()) {
+                    $i++
+                    ?>
                     <tr class="inputForm">
+                        <td>
+                            <img style="margin:10px;" src="file/news/<?php echo $FileNme["name"]?>" width="100">
+                            <input type="hidden" name="fileNme[]" value="<?php echo $FileNme["name"]?>">
+                        </td> 
                         <td><input name="file_[]" type="file"></td>                    
-                        <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
+                        <td><a href="delPicNews.php?id=<?php echo $_GET['id'];?>&name=<?php echo $FileNme["name"];?>&countId=<?php echo $FileNme["countId"]?>&seq=<?php echo $i?>"  class="btn btn-danger" onclick="return confirm('Are you sure?')"><span class="glyphicon glyphicon-trash"></span></a></td>
                     </tr>
-                    <tr class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
-                        <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
-                    </tr>
-                    <tr class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
-                        <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
-                    </tr>
+                        <?php } ?>
+                    
                     <tr class="inputForm-add">
-                        <td>&nbsp;</td>                    
+                        <td><input type="text" name="countOld" value="<?php echo $i+1;?>"></td>
+                        <td><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"></td>                    
                         <td>&nbsp;</td>
                     </tr> 
                     <tr class="inputForm-add">
-                        <td></td>                    
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>                    
                         <td class="deleteRow"><button type="button" id="add" class="addMoreRow btn btn-default"><span class="glyphicon glyphicon-plus"></span></button></td>
                     </tr>          
                 </tbody>
@@ -158,7 +162,7 @@ $(function(){
 });
 
 </script>
-<script src="<?php echo $domainName;?>/js/bootstrap.min.js"></script> 
+<script src="../js/bootstrap.min.js"></script> 
 
 </body>
 </html>

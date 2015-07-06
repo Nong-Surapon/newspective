@@ -118,3 +118,84 @@ function newsEidt($id){
             }
     }
 }
+
+
+
+function porfolioFile($id){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT *,(select count(id) from w_na_portfolio_file where na_portfolio_id ='$id') as countId  FROM w_na_portfolio_file where na_portfolio_id = '$id' ")){
+        return $result;
+    }
+}
+
+function newsAll(){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT * FROM w_news order by id desc")){
+        return $result;
+    }
+}
+
+function newsPic2($id){
+    global $mysqli;
+    if($result = $mysqli->query("select a.*,b.name  from w_news a, w_news_file b 
+        where 
+        a.id = b.news_id
+        and b.id = (select min(id) FROM w_news_file where news_id = a.id)
+        and a.id = '$id'
+        ORDER BY id DESC LIMIT 5"))
+            {
+         if ($row = $result->fetch_assoc()) {
+                return $row["name"];
+            }
+    }
+}
+
+function newsQurery($id){
+    global $mysqli;
+    if($result = $mysqli->query("select * from w_news where id = '$id' ")){
+        if ($row = $result->fetch_assoc()) {
+                return $row;
+            }
+    }
+    $result->close();
+    
+}
+
+function newsFileID($id){
+    global $mysqli;
+    if($result = $mysqli->query("select * from w_news_file where news_id = '$id' ")){
+        return $result;            
+    }
+    $result->close();
+    
+}
+
+function newsLast(){
+    global $mysqli;
+    if($result = $mysqli->query("
+            select a.*,b.name  from w_news a, w_news_file b 
+            where a.id = b.news_id
+            and b.id = (select min(id) FROM w_news_file where news_id = a.id)
+            ORDER BY id DESC LIMIT 5 "
+            )){
+        return $result;            
+    }
+    $result->close();
+    
+}
+
+function newsEidtAll($id){
+      global $mysqli;
+    if($result = $mysqli->query("select * from w_news where id ='$id' ")){
+        if ($row = $result->fetch_assoc()) {
+                return $row;
+            }
+    }
+}
+
+function newsFileByID($id){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT *,(select count(id) from w_news_file where news_id ='$id') as countId FROM w_news_file where news_id ='$id' ")){
+        return $result;
+    }
+}

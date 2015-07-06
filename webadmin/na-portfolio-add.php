@@ -67,8 +67,11 @@ if($result){
         }      
     }
 	if($move){
-		echo "Success<br>";
-		echo "<a href='na-portfolio.php'><< Black</a>";
+            header('Location: na-portfolio.php');
+            exit;
+            
+		//echo "Success<br>";
+		//echo "<a href='na-portfolio.php'><< Black</a>";
 	}else{
 		echo "Error";
 	}
