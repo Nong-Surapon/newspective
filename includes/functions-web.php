@@ -88,9 +88,9 @@ function portfolioLast($company){
     
 }
 
-function newsQuery(){
+function newsQuery($search,$selCompany){
     global $mysqli;
-    if($result = $mysqli->query("SELECT * FROM w_na_portfolio order by id desc")){
+    if($result = $mysqli->query("SELECT * FROM w_na_portfolio where en_title like '%$search%' and company like '%$selCompany%'  order by id desc")){
         return $result;
     }
 }
@@ -128,9 +128,15 @@ function porfolioFile($id){
     }
 }
 
-function newsAll(){
+function newsAll($search,$n_group){
     global $mysqli;
-    if($result = $mysqli->query("SELECT * FROM w_news order by id desc")){
+    $sql = "SELECT * FROM w_news where en_title like '%$search%' ";
+    if($n_group!=""){
+    $sql .= "and n_group = '$n_group' ";
+    }
+    $sql .= "order by id desc";
+    
+    if($result = $mysqli->query($sql)){
         return $result;
     }
 }

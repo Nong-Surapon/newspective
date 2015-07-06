@@ -37,6 +37,29 @@
     ?>
     <div class="container" style="margin-top:80px;">
         <h1>List :: Portfolio Newage address</h1><br>
+        <form action="" method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="search_txt">Search:</label>
+                    <input class="form-control" id="search_txt" type="text" name="search_txt" value="<?php echo $_REQUEST['search_txt'];?>">
+                </div>                
+                <div class="col-md-4">
+                     <div class="form-group">
+                         <label for="selCompany">Select group:</label>
+                         <select class="form-control" id="selCompany" name="selCompany">
+                             <option value="">-Select-</option>
+                             <option value="News" <?php if ($_REQUEST['selCompany']=='News'){ echo "selected";}?> >News</option>
+                             <option value="Activities" <?php if ($_REQUEST['selCompany']=='Activities'){ echo "selected";}?> >Activities</option>
+                             <option value="News Activities" <?php if ($_REQUEST['selCompany']=='News Activities'){ echo "selected";}?> >News Activities</option>
+                         </select>
+                     </div>
+                </div>
+                <div class="col-md-4" style="margin-top:25px;">
+                    <button type="submit" class="btn btn-default">Search</button>
+                </div>
+            </div>
+            </form>
+            <br><br>
         <div class="table-responsive">
           <table class="table">
             <thead>
@@ -53,7 +76,7 @@
             <tbody>
                 <?php
                 $i=0;
-                    $newsQuery =  newsAll();
+                    $newsQuery =  newsAll($_POST["search_txt"],$_POST["selCompany"]);
                     while ($row = $newsQuery->fetch_assoc()) {
                       $i++;     
                 ?>

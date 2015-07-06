@@ -126,7 +126,7 @@ include_once("inc_session.php");
                         <?php } ?>
                     
                     <tr class="inputForm-add">
-                        <td><input type="text" name="countOld" value="<?php echo $i+1;?>"></td>
+                        <td><input type="hidden" name="countOld" value="<?php echo $i+1;?>"></td>
                         <td><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"></td>                    
                         <td>&nbsp;</td>
                     </tr> 
