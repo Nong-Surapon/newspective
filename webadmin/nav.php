@@ -15,7 +15,8 @@
             <a href="#n-head" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true">News&Activities <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="new-activities-list.php">List</a></li>
-                <li><a href="new-activities.php">Add</a></li>                              
+                <li><a href="new-activities.php">Add Photo</a></li>
+                <li><a href="new-activities-youtube.php">Add Youtube</a></li>
             </ul>
         </li>
         <li class="dropdown">

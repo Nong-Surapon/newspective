@@ -51,7 +51,7 @@ include_once("includes/functions-web.php");
                     <!-- SLIDE  -->
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="assets/images/bg-2.jpg" data-delay="10000"  data-saveperformance="off" data-title="slider 1">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/bg-2.jpg"  alt="kenburns1"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="130" data-bgfitend="100" data-bgpositionend="right center">
+                        <img src="assets/images/bg-2.jpg"  alt="kenburns1"  data-bgposition="left center"  data-duration="10000" data-ease="Linear.easeNone" data-bgfit="130" data-bgfitend="100" data-bgpositionend="right center"><!-- data-kenburns="on" (add to slide)-->
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->    
@@ -94,7 +94,7 @@ include_once("includes/functions-web.php");
                     <!-- SLIDE  -->
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="assets/images/bg-3.jpg" data-delay="10000"  data-saveperformance="off" data-title="slider 2">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/bg-3.jpg"  alt="kenburns1"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="130" data-bgfitend="100" data-bgpositionend="right center">
+                        <img src="assets/images/bg-3.jpg"  alt="kenburns1"  data-bgposition="left center" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="130" data-bgfitend="100" data-bgpositionend="right center">
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->    
@@ -137,7 +137,7 @@ include_once("includes/functions-web.php");
                     <!-- SLIDE  -->
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="assets/images/bg-1.jpg" data-delay="10000"  data-saveperformance="off" data-title="slider 3">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/bg-1.jpg"  alt="kenburns1"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="130" data-bgfitend="100" data-bgpositionend="right center">
+                        <img src="assets/images/bg-1.jpg"  alt="kenburns1"  data-bgposition="left center" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="130" data-bgfitend="100" data-bgpositionend="right center">
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->    

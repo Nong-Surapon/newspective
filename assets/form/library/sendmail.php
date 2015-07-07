@@ -3,7 +3,7 @@
   session_start();
  
   //add you e-mail address here
-  define("MY_EMAIL", "surapon@newspective.co.th,admin@newspective.co.th");
+  define("MY_EMAIL", "surapon@newspective.co.th,nattapoom@newspective.co.th");
  
   /**
    * Sets error header and json error message response.
