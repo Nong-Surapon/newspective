@@ -13,7 +13,6 @@ $row = newsActivitiesFetch($_GET["id"])
                 $newsFile = newsFile($_GET["id"]);
                 while ($nRow = $newsFile->fetch_assoc()) {
                    echo $nRow["name"];
-                
                 ?>
                 <li class="cbp-slider-item">
                     <a href="webadmin/file/news/<?php echo $nRow['name']?>" class="cbp-lightbox">

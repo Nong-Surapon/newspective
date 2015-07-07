@@ -17,6 +17,7 @@ include_once("inc_session.php");
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <link href="css/newspective.css" rel="stylesheet">
+    <script src="js/newspective.js"></script>
 
     <script>
     $(function () {
@@ -120,7 +121,7 @@ include_once("inc_session.php");
                             <img style="margin:10px;" src="file/news/<?php echo $FileNme["name"]?>" width="100">
                             <input type="hidden" name="fileNme[]" value="<?php echo $FileNme["name"]?>">
                         </td> 
-                        <td><input name="file_[]" type="file"></td>                    
+                        <td><input name="file_[]" type="file" id="file_input<?php echo $i;?>" onchange="chkSize(this.id);"></td>                    
                         <td><a href="delPicNews.php?id=<?php echo $_GET['id'];?>&name=<?php echo $FileNme["name"];?>&countId=<?php echo $FileNme["countId"]?>&seq=<?php echo $i?>"  class="btn btn-danger" onclick="return confirm('Are you sure?')"><span class="glyphicon glyphicon-trash"></span></a></td>
                     </tr>
                         <?php } ?>

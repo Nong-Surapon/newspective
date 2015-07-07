@@ -2,6 +2,12 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
+    if (isset($_COOKIE["webadmin"])) {
+        header("Location: new-activities-list.php");
+    }
+    if(isset($_SESSION['webadmin'])){
+        header("Location: new-activities-list.php");
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -44,7 +50,7 @@ if (session_status() == PHP_SESSION_NONE) {
             $_SESSION['webadmin']="admin";  
             
             echo '<script type="text/javascript">';
-            echo 'window.location.href="new-activities.php";';
+            echo 'window.location.href="new-activities-list.php";';
             echo '</script>';
             echo '<noscript>';
             echo '<meta http-equiv="refresh" content="0;url='.$url.'" />';

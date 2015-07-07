@@ -1460,7 +1460,8 @@ include_once("includes/functions-web.php");
                             <br>
                             <h2 class="elements-title">Map Download</h2>
                             <hr class="fancy-hr">
-                            <a herf="#" class="btn btn-lg btn-block btn-dark-bg">Download</a>
+                            <!--<a herf="web.php" download class="btn btn-lg btn-block btn-dark-bg">Download</a>-->
+                            <a href="img/Map.pdf" class="btn btn-lg btn-block btn-dark-bg" download>Download</a>
                         </div>
                     </div><!--row-->
                 </div><!--container-->

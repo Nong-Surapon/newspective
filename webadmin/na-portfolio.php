@@ -17,6 +17,7 @@ include_once("inc_session.php");
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <link href="css/newspective.css" rel="stylesheet">
+    <script src="js/newspective.js"></script>
 
     <script>
     $(function () {
@@ -28,7 +29,6 @@ include_once("inc_session.php");
     <!--for datepicker and use footer_picker.php-->
     <style type="text/css">
     .inputForm:first-child{display:none; }
-
     </style>
 
 </head>
@@ -93,19 +93,19 @@ include_once("inc_session.php");
                 <tbody>
 
                     <tr id="inputForm" class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
+                        <td><input name="file_[]" type="file" ></td>                    
                         <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
                     </tr>
                     <tr class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
+                        <td><input name="file_[]" type="file" id="file_input1" onchange="chkSize(this.id);"></td>                    
                         <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
                     </tr>
                     <tr class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
+                        <td><input name="file_[]" type="file" id="file_input2" onchange="chkSize(this.id);"></td>                    
                         <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
                     </tr>
                     <tr class="inputForm">
-                        <td><input name="file_[]" type="file"></td>                    
+                        <td><input name="file_[]" type="file" id="file_input3" onchange="chkSize(this.id);"></td>                    
                         <td class="deleteRow"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
                     </tr>
                     <tr class="inputForm-add">

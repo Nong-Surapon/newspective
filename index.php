@@ -73,7 +73,8 @@
           <p class="text-center" id="f18">“เมือง คือ ความหลากหลายของการมีชีวิตอยู่ของมนุษย์</p>
           <p class="text-center" id="f18">ทุกเมืองมีเรื่องใหม่ๆ เกิดขึ้นตลอดเวลา</p>
           <p class="text-center" id="f18">ทุกเมืองมีความเชื่อมโยงและเกี่ยวข้องกันในทุกมิติ”</p><br>
-          <p class="text-center"><a href="web.php"><font style="color: #FFFFFF; font-size: 16px;">(เข้าสู่เว็บไซต์)</font></a></p>
+          <p class="text-center"><a href="web_th.php"><font style="color: #FFFFFF; font-size: 16px;">(เข้าสู่เว็บไซต์)</font></a></p>
+          <p class="text-center"><a href="web.php"><font style="color: #FFFFFF; font-size: 16px;">(Welcome to our website)</font></a></p>         
        </div>
      </div>
 
