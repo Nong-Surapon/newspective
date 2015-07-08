@@ -146,10 +146,22 @@ $portfolioQurery = newsQurery($_GET["id"]);
                                     ?>
                                     
                                     <li class="clearfix">
-                                        <a href="portfolio.php?id=<?php echo $rowLast["id"]?>" class="post-thumb"> <img src="webadmin/file/news/<?php echo $rowLast['name']?>" class="img-responsive" alt="<?php echo $rowLast["en_title"];?>"></a>
+                                        <a href="news-activities.php?id=<?php echo $rowLast["id"]?>" class="post-thumb"> <img src="webadmin/file/news/<?php echo $rowLast['name']?>" class="img-responsive" alt="<?php echo $rowLast["en_title"];?>"></a>
                                         <div class="recent-post-content">
-                                            <a href="portfolio.php?id=<?php echo $rowLast["id"]?>">
-                                                <?php echo $rowLast["en_title"];?>
+                                            <a href="news-activities.php?id=<?php echo $rowLast["id"]?>">
+                                                
+                                                <?php 
+                                                
+                $en_title = $rowLast["en_title"];               
+                $len_title = strlen($en_title);
+                if($len_title > 43){
+                    $sub_title = substr($en_title,0,43);
+                    $enTitle = $sub_title." ...";
+                }else{
+                    $enTitle = $en_title;
+                } 
+                
+                                                echo $enTitle;?>
                                             </a>
                                             <!--<span>John doe, 26 april 2015</span>-->
                                         </div>
