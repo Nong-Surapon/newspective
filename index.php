@@ -693,7 +693,13 @@ include_once("includes/functions-web.php");
                         </div>
                     <?php } ?>
                 </div>
-            </div>
+            </div><!--col-->
+            </div><!--row-->
+            <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="news-activities-all.php" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 10%;" target="_blank">All PROJECT</a>
+                </div>
             </div>
         </div><!--container-->
 
@@ -899,6 +905,12 @@ include_once("includes/functions-web.php");
                     <!-- end normal -->
                 </div>
             <?php } ?>
+        </div><!--row-->
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="portfolio-all.php?cpn=Newage" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 10%;" target="_blank">All PROJECT</a>
+            </div>
         </div>
     </div>
 
@@ -1295,7 +1307,7 @@ include_once("includes/functions-web.php");
                         ?>
                         <div class="col-md-4 col-lg-4">
                             <!-- normal -->
-                            <div class="ih-item square effect3 bottom_to_top"><a href="portfolio.php?id=<?php echo $aport["id"]; ?>" target="_blank">
+                            <div class="ih-item square effect3 bottom_to_top" style="margin:20px"><a href="portfolio.php?id=<?php echo $aport["id"]; ?>" target="_blank">
                                     <div class="img"><img src="webadmin/file/portfolio/<?php echo $aport["fileNme"]; ?>"></div>
                                     <div class="info">
                                         <h3><?php echo $enTitle ?></h3>
@@ -1304,6 +1316,12 @@ include_once("includes/functions-web.php");
                             <!-- end normal -->
                         </div>
                     <?php } ?>
+                </div><!--row-->
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="portfolio-all.php?cpn=Address" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 10%;" target="_blank">All PROJECT</a>
+                    </div>
                 </div>
             </div>
 

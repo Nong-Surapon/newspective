@@ -6,6 +6,13 @@ function newsActivities(){
 	}
 	$result->close();    
 }
+function newsActivities_All(){
+	global $mysqli;
+	while($result = $mysqli->query("SELECT id,en_title,en_desc,en_detail,n_group FROM w_news order by id desc ")) {
+		return $result;
+	}
+	$result->close();    
+}
 function newsActivitiesFetch($id){
 	global $mysqli;
 	if($result = $mysqli->query("SELECT id,en_title,en_desc,en_detail,n_group FROM w_news where id = '$id' ")) {
@@ -51,6 +58,16 @@ function portfolioA(){
         where a.id = b.na_portfolio_id
         and b.id = (select min(id) from w_na_portfolio_file where na_portfolio_id = a.id and company = 'Address') 
         ORDER BY a.id DESC limit 9 ")){
+        return $result;
+    }
+    $result->close();
+}
+function portfolioA_All($company){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT a.*, b.name as fileNme FROM w_na_portfolio a, w_na_portfolio_file b
+        where a.id = b.na_portfolio_id
+        and b.id = (select min(id) from w_na_portfolio_file where na_portfolio_id = a.id and company = '$company') 
+        ORDER BY a.id DESC ")){
         return $result;
     }
     $result->close();

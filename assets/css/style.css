@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .subtitle-center {
   font-weight: 400;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-size: 13px;
   line-height: 20px;
   margin-bottom: 40px;

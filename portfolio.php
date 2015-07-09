@@ -178,6 +178,9 @@ $portfolioQurery = portfolioQurery($_GET["id"]);
                                     Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                                 </p>
                             </div><!--sidebar widget-->
+                            <div class="sidebar-widget">    
+                                <a href="portfolio-all.php?cpn=<?php echo $portfolioQurery["company"];?>" class="btn btn-lg btn-block btn-dark-bg">All PROJECT</a>    
+                            </div>
                             <div class="sidebar-widget">
                                 <h3 class="sidebar-title">Tags</h3>
                                 <div class="tag-list">
