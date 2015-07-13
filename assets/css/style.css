@@ -406,7 +406,7 @@ SLIDER REVOLUTION
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 .slider-arrow-down a {
@@ -1382,7 +1382,7 @@ body.gray-bg {
 .socials li a {
   display: block;
   width: 40px;
-  height: 40px;
+  height: 42px;
   line-height: 40px;
   text-align: center;
   color: #fff;
@@ -1410,7 +1410,9 @@ body.gray-bg {
 .socials li a.g-plus {
   background-color: #d73d32;
 }
-
+.socials li a.line {
+  background-color: #00c33b;
+}
 .socials li a.yout {
   background-color: #cc181e;
 }

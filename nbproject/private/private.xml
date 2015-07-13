@@ -2,6 +2,18 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Applications/MAMP/htdocs/newspective/webadmin/delVideoInfo.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/webadmin/information-add-data.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/webadmin/delPicInfo.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/webadmin/information-edit.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/index.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/assets/css/style.css</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/includes/functions-web.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/webadmin/index.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/webadmin/information-del.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/more-all.php</file>
+            <file>file:/Applications/MAMP/htdocs/newspective/webadmin/information-add.php</file>
+        </group>
     </open-files>
 </project-private>

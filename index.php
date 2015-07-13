@@ -75,7 +75,7 @@ include_once("includes/functions-web.php");
                              data-easing="easeInOutQuad"
                              data-endspeed="1000"
                              data-endeasing="easeInOutQuad"
-                             style="z-index: 3"><span style="font-size: 300%;">"make it batter"</span>
+                             style="z-index: 3"><span style="font-size: 300%;">"Make it Better"</span>
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -130,7 +130,7 @@ include_once("includes/functions-web.php");
                              data-easing="easeInOutQuad"
                              data-endspeed="1000"
                              data-endeasing="easeInOutQuad"
-                             style="z-index: 3"><a href="#work" class="sr-button sr-buttonicon small-iconbutton scroll-to"><i class="ion-ios-arrow-down"></i></a>
+                             style="z-index: 3"><a href="#n-head" class="sr-button sr-buttonicon small-iconbutton scroll-to"><i class="ion-ios-arrow-down"></i></a>
                         </div>
 
                     </li>
@@ -173,7 +173,7 @@ include_once("includes/functions-web.php");
                              data-easing="easeInOutQuad"
                              data-endspeed="1000"
                              data-endeasing="easeInOutQuad"
-                             style="z-index: 3"><a href="#contact" class="sr-button sr-buttonicon small-iconbutton scroll-to"><i class="ion-ios-arrow-down"></i></a>
+                             style="z-index: 3"><a href="#a-head" class="sr-button sr-buttonicon small-iconbutton scroll-to"><i class="ion-ios-arrow-down"></i></a>
                         </div>
 
                     </li>
@@ -202,7 +202,7 @@ include_once("includes/functions-web.php");
                             <ul class="dropdown-menu">
                                 <li><a href="#founder">Founder & Group General Manager</a></li>
                                 <li><a href="#symbol">Newspective Symbol</a></li>
-                                <li><a href="#mib">“Make it Better” philosophyof SUCCESS</a></li>
+                                <li><a href="#mib">“Make it Better” philosophy of SUCCESS</a></li>
                                 <li><a href="#company">Group Company</a></li>
                                 <li><a href="#timelime">Our Historic Timeline</a></li>
                                 <li><a href="#wnp">We are Newspective people</a></li>                                
@@ -263,9 +263,9 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <div id="founder"><br><br><br></div>
-                <h3>Founder & Group General Manager</h3>
-                <hr class="fancy-hr">
+                    <div id="founder"><br><br><br></div>
+                    <h3>Founder & Group General Manager</h3>
+                    <hr class="fancy-hr">
                 </div>
             </div>
         </div>
@@ -302,9 +302,9 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <div id="symbol"><br><br><br></div>
-                <h3>Newspective Symbol</h3>
-                <hr class="fancy-hr">
+                    <div id="symbol"><br><br><br></div>
+                    <h3>Newspective Symbol</h3>
+                    <hr class="fancy-hr">
                 </div>
             </div>
         </div>
@@ -322,8 +322,8 @@ include_once("includes/functions-web.php");
 
                         <b><span class="colored-text">The Origin of Name</span></b><br>
 
-                        Newspective is from the combination of 2 words<br>
-                        <span class="colored-text"><b>“New”</b></span> represents the joy and fun to create new things consistently and the first word of<br> 
+                        Newspective is from the combination of 2 words<br><br>
+                        <span class="colored-text"><b>“New”</b></span> represents the joy and fun to create new things consistently and the first word of 
                         <span class="colored-text"><b>“New Age”</b></span> which has been around in the business for over a decade.<br>
                         <span class="colored-text"><b>“Perspective”</b></span> represents working vision that sees through all the angles, width, depth, height and the ability to connect things altogether. 
                         Therefore, <span class="colored-text"><b>“Newspective”</b></span> represents visions in all dimensions that is connected and fun to create new things at all times. This shall lead to infinite development. 
@@ -350,18 +350,18 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <div id="mib"><br><br><br></div>
-                <h3>“Make it Better” philosophy of SUCCESS</h3>
-                <hr class="fancy-hr">
+                    <div id="mib"><br><br><br></div>
+                    <h3>“Make it Better” philosophy of SUCCESS</h3>
+                    <hr class="fancy-hr">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <br>
-                <img src="img/logo.gif" width="40%" class="img-responsive center-block" alt="logo newspective">
-                <h2 class="text-center">“Make It Better”</h2>
+                    <br>
+                    <img src="img/logo.gif" width="40%" class="img-responsive center-block" alt="logo newspective">
+                    <h2 class="text-center">“Make it Better”</h2>
                 </div>
             </div>
             <div class="row">                    
@@ -393,9 +393,9 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <div id="company"><br><br><br></div>
-                <h3>Group Company</h3>
-                <hr class="fancy-hr">
+                    <div id="company"><br><br><br></div>
+                    <h3>Group Company</h3>
+                    <hr class="fancy-hr">
                 </div>
             </div>
         </div>
@@ -447,25 +447,25 @@ include_once("includes/functions-web.php");
 
         <div class="gray-cta">
             <div class="container text-center scroll-to">
-                <h2><span class="colored-text">“3 companies in 3 business that will <br>make your life better everyday”</span></h2>   
+                <h1><span class="colored-text">“3 companies in 3 business that will <br>make your life better everyday”</span></h1>   
                 <hr style="width:10%; background-color:#B29036;height: 2px;">             
             </div>
         </div><!--gray cta-->
 
 
-<!--   ########### ADD col-sm- xx OK ###########-->
+        <!--   ########### ADD col-sm- xx OK ###########-->
 
 
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <div id="timelime"><br><br><br></div>
-                <h3>Our Historic Timeline</h3>
-                <hr class="fancy-hr">
+                    <div id="timelime"><br><br><br></div>
+                    <h3>Our Historic Timeline</h3>
+                    <hr class="fancy-hr">
                 </div>
             </div>
         </div>
-<div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="blog-entry-custom clearfix wow animated fadeInUp" data-wow-delay=".1s">
@@ -550,52 +550,51 @@ include_once("includes/functions-web.php");
                     <div class="blog-entry clearfix wow animated fadeInUp" data-wow-delay=".1s">
 
                         <p class="blog-date-custom"><span class="colored-text">21 January 2015</span></p>
-                        <p><span class="colored-text" style="font-size: 25px;">Adjust organization’s image to be Newspective in order to divide business cluster and accelerate continuously.</span></p>
+                        <p><span class="colored-text" style="font-size: 25px;">Adjust organization’s image to be <b>Newspective</b> in order to divide business cluster and accelerate continuously.</span></p>
 
                     </div><!--blog entry-->
 
                 </div>
             </div><!-- ##### end Our Historic Timeline #####-->
-</div>
-<div class="container">
+        </div>
+        <div class="container">
             <div class="row"> 
                 <div class="col-sm-12">
-                <div id="wnp"><br><br><br></div>
-                <h3>We are Newspective people</h3>
-                <hr class="fancy-hr">    
+                    <div id="wnp"><br><br><br></div>
+                    <h3>We are Newspective people</h3>
+                    <hr class="fancy-hr">    
                 </div>
             </div>
-</div>
+        </div>
 
 
-<div class="container">
+        <div class="container">
             <div class="row"> 
                 <div class="col-sm-12">
                     <img class="img-responsive center-block" src="img/Rubic.jpg" alt="" width="50%">
                 </div>
             </div>
-</div>
-<div class="container">
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="col-sm-12">                        
                     <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
-                        <b><span class="colored-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective has been operating under success philosophy “Make It Better”. We are seriously focusing and giving priority to internal human resource development. All staff are selected and developed via 3 important codes.</span></b><br><br>
+                        <b><span class="colored-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective has been operating under success philosophy “Make it Better”. We are seriously focusing and giving priority to internal human resource development. All staff are selected and developed via 3 important codes.</span></b><br><br>
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span class="colored-text">High level:</span></b> “Make It Better” is the philosophy of life. Newspective staff must be hungry to learn and be developed at all times to make their life better on a daily basis.<br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span class="colored-text">High level:</span></b> “Make it Better” is the philosophy of life. Newspective staff must be hungry to learn and be developed at all times to make their life better on a daily basis.<br><br>
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span class="colored-text">Medium level:</span></b> There are 3 elements of Newspective staff’s qualifications.<br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span class="colored-text">Medium level:</span></b> There are 3 elements of Newspective staff’s qualifications.<br>
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In-depth knowledge: Fully understand and having expertise in their roles, must be able to teach other people about their specialty perfectly.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>In-depth knowledge:</b> Fully understand and having expertise in their roles, must be able to teach other people about their specialty perfectly.<br>
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variety: Knowing variety of information that may or may not be related to their works but can be applied to the tasks to make them better. <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Variety:</b> Knowing variety of information that may or may not be related to their works but can be applied to the tasks to make them better. <br>
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Practical: Must have ability to make things practically happen. Getting the job done from their own ability and broadly accepted by others. <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Practical:</b> Must have ability to make things practically happen. Getting the job done from their own ability and broadly accepted by others. <br><br>
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span class="colored-text">Fundamental level:</span></b> Operation level in each business: Newspective staff in each business has their uniqueness which is <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><span class="colored-text">Fundamental level:</span></b> Operation level in each business: Newspective staff in each business has their uniqueness which is <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Outstanding, Movement, Lively</b> – Newspective Newage Co.Ltd. <br>
 
-                        Outstanding, Movement, Lively – Newspective Newage Co.Ltd. <br>
-
-                        Focus on the task, negotiable, friendly – Newspective Address Co.Ltd. <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Focus on the task, negotiable, friendly</b> – Newspective Address Co.Ltd. <br><br>
 
                         <b><span class="colored-text">All these 3 levels can describe Newspective people precisely </span></b><br>
                         Newspective strongly believe in our people that they will continuously make lives of the client better on a daily basis. 
@@ -613,14 +612,14 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <div id="n-ac"><br><br><br></div>               
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="text-center">
-                        <h2 class="center-title">NEWS & ACTIVITIES</h2>
-                        <span class="center-border-line"></span>
-                        <!--<p class="sub-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature from 45 BC, it a old.</p>-->
+                    <div id="n-ac"><br><br><br></div>               
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="text-center">
+                            <h2 class="center-title">NEWS & ACTIVITIES</h2>
+                            <span class="center-border-line"></span>
+                            <!--<p class="sub-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature from 45 BC, it a old.</p>-->
+                        </div>
                     </div>
-                </div>
                 </div>
             </div><!--center title row end-->
         </div><!--container-->
@@ -629,76 +628,76 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                <div style="display: none" id="filters-container" class="cbp-l-filters-dropdown">
-                    <div class="cbp-l-filters-dropdownWrap">
-                        <div class="cbp-l-filters-dropdownHeader">Sort Gallery</div>
-                        <div class="cbp-l-filters-dropdownList">
-                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                                All (<div class="cbp-filter-counter"></div> items)
-                            </div>
-                            <div data-filter=".print" class="cbp-filter-item">
-                                Print (<div class="cbp-filter-counter"></div> items)
-                            </div>
-                            <div data-filter=".web-design" class="cbp-filter-item">
-                                Web Design (<div class="cbp-filter-counter"></div> items)
-                            </div>
-                            <div data-filter=".motion" class="cbp-filter-item">
-                                Motion (<div class="cbp-filter-counter"></div> items)
+                    <div style="display: none" id="filters-container" class="cbp-l-filters-dropdown">
+                        <div class="cbp-l-filters-dropdownWrap">
+                            <div class="cbp-l-filters-dropdownHeader">Sort Gallery</div>
+                            <div class="cbp-l-filters-dropdownList">
+                                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                                    All (<div class="cbp-filter-counter"></div> items)
+                                </div>
+                                <div data-filter=".print" class="cbp-filter-item">
+                                    Print (<div class="cbp-filter-counter"></div> items)
+                                </div>
+                                <div data-filter=".web-design" class="cbp-filter-item">
+                                    Web Design (<div class="cbp-filter-counter"></div> items)
+                                </div>
+                                <div data-filter=".motion" class="cbp-filter-item">
+                                    Motion (<div class="cbp-filter-counter"></div> items)
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
                 <br>
                 <br>
                 <div class="col-sm-12">
-                <div id="grid-container" class="cbp">
-                    <?php
-                    $newsActivities = newsActivities();
-                    while ($row = $newsActivities->fetch_assoc()) {
+                    <div id="grid-container" class="cbp">
+                        <?php
+                        $newsActivities = informationType('news');
+                        while ($row = $newsActivities->fetch_assoc()) {
 
-                        $en_title = $row["en_title"];
-                        $len_title = strlen($en_title);
-                        if ($len_title > 42) {
-                            $sub_title = substr($en_title, 0, 42);
-                            $enTitle = $sub_title . " ...";
-                        } else {
-                            $enTitle = $en_title;
-                        }
+                            $en_title = $row["en_title"];
+                            $len_title = strlen($en_title);
+                            if ($len_title > 42) {
+                                $sub_title = substr($en_title, 0, 42);
+                                $enTitle = $sub_title . " ...";
+                            } else {
+                                $enTitle = $en_title;
+                            }
 
 
-                        $en_desc = $row["en_desc"];
-                        $len_desc = strlen($en_desc);
-                        if ($len_desc > 58) {
-                            $sub_desc = substr($en_desc, 0, 58);
-                            $enDesc = $sub_desc . " ...";
-                        } else {
-                            $enDesc = $en_desc;
-                        }
-                        ?>
-                        <div class="cbp-item print motion">
-                            <a href="assets/ajax/project1.php?id=<?php echo $row['id']; ?>" class="cbp-caption cbp-singlePageInline">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="webadmin/file/news/<?php echo newsFileFilst($row['id']) ?>" alt="<?php echo $row["en_title"]; ?>">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title"><?php echo $enTitle ?></div>
-                                            <div class="cbp-l-caption-desc"><?php echo $enDesc ?></div>
+                            $en_desc = $row["en_desc"];
+                            $len_desc = strlen($en_desc);
+                            if ($len_desc > 58) {
+                                $sub_desc = substr($en_desc, 0, 58);
+                                $enDesc = $sub_desc . " ...";
+                            } else {
+                                $enDesc = $en_desc;
+                            }
+                            ?>
+                            <div class="cbp-item print motion">
+                                <a href="assets/ajax/project1.php?id=<?php echo $row['id']; ?>" class="cbp-caption cbp-singlePageInline">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="webadmin/file/<?php echo informationFileFilst($row['id']) ?>" alt="<?php echo $row["en_title"]; ?>">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignLeft">
+                                            <div class="cbp-l-caption-body">
+                                                <div class="cbp-l-caption-title"><?php echo $enTitle ?></div>
+                                                <div class="cbp-l-caption-desc"><?php echo $enDesc ?></div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                    <?php } ?>
-                </div>
-            </div><!--col-->
+                                </a>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div><!--col-->
             </div><!--row-->
             <br>
             <div class="row">
                 <div class="col-sm-12">
-                    <a href="news-activities-all.php" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 10%;" target="_blank">All PROJECT</a>
+                    <a href="more-all.php?cpn=news" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 16%;" target="_blank">All NEWS & ACTIVITIES</a>
                 </div>
             </div>
         </div><!--container-->
@@ -719,13 +718,13 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-            <div id="n-about"><br><br><br></div>
-            <h3>About Us & Our Service</h3>
-            <hr class="fancy-hr">
-            <dir class="row">
-                <p class="text-center"><b>With more than a decade of experiences, we are expert in marketing<br>
-                        activities and all types of advertising media. 2 areas of our major services</b></p><br>
-            </dir>
+                    <div id="n-about"><br><br><br></div>
+                    <h3>About Us & Our Service</h3>
+                    <hr class="fancy-hr">
+                    <dir class="row">
+                        <p class="text-center"><b>With more than a decade of experiences, we are expert in marketing<br>
+                                activities and all types of advertising media. 2 areas of our major services</b></p><br>
+                    </dir>
                 </div>
             </div>
         </div>
@@ -787,340 +786,342 @@ include_once("includes/functions-web.php");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-            <div class="quote parallax-1">
-                <div class="container text-center">
-                    <div class="col-sm-8 col-sm-offset-2 wow animated fadeIn" data-wow-delay=".1s">
-                        <p>
-                            <span class="colored-text">
-                                <b>“Never say no”</b><br>
-                                We deliver all things you desire
-                            </span>
-                        </p>                            
-                    </div>
-                </div>
-            </div><!--quote section end-->
-        </div>
-    </div>
-        </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-        <div id="n-people"><br><br><br></div>
-        <h3>People</h3>
-        <hr class="fancy-hr"> 
-            </div>
-        </div>
-    </div>
-        <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <!-- team slider -->
-            <div class="ms-staff-carousel">
-                <!-- masterslider -->
-                <div class="master-slider" id="teamslider">
-                    <div class="ms-slide">
-                        <img src="assets/master-slider/style/blank.gif" data-src="img/Nattapoom.jpg" alt="lorem ipsum dolor sit"/>  
-
-                        <div class="ms-info text-center center-block" style="width: 60%">
-                            <h3>Mr.Nattapoom Ratchayakorn</h3>
-                            <h4>Group General Manager</h4>
-                            <p class="email">E-Mail: <span class="colored-text">nattapoom@newspective.co.th</span></p>
-                            <p>Former activity lover student who started his first career at M=OMD Thailand, followed by Dentsu Media Palette (Thailand) and began his own company at the age of 25. Nattapoom has over 10 years of marketing experiences.</p>
-                            <p class="email">Mobile: <span class="colored-text">081-439-5533</span></p>
-                        </div>     
-                    </div><!--slide item-->
-                    <div class="ms-slide">
-                        <img src="assets/master-slider/style/blank.gif" data-src="img/Mananya.jpg" alt="lorem ipsum dolor sit"/>  
-
-                        <div class="ms-info text-center center-block" style="width: 60%; height: 100%">
-                            <h3>Miss Mananya Teyarajkul</h3>
-                            <h4>Associate Business Director</h4>
-                            <p class="email">E-Mail: <span class="colored-text">mananya@newspective.co.th</span></p>
-                            <p>Former activity lover student who started her career at Newspective since 9 years ago as fresh graduate, Mananya is the important pillar for business development with clients. She has outstanding personality, quick, always come up with several ideas and love her clients like family members. Currently, Mananya is in charge of event business for Newspective.</p>
-                            <p class="email">Mobile: <span class="colored-text">081-625-2587</span></p>
-                        </div>     
-                    </div><!--slide item-->
-                    <div class="ms-slide">
-                        <img src="assets/master-slider/style/blank.gif" data-src="img/Nuengruethai.jpg" alt="lorem ipsum dolor sit"/>  
-
-                        <div class="ms-info text-center center-block" style="width: 70%">
-                            <h3>Miss Nuengruethai Bangnachat</h3>
-                            <h4>Media Manager</h4>
-                            <p class="email">E-Mail: <span class="colored-text">nuengruethai@newspective.co.th</span></p>
-                            <p>Former bright marketing student who studied what she loves and further work on it as a career, Nuengruethai joined Newspective since 7 years ago and has been playing important role to expand new media business for the company. She may be a small lady but very straight forward, precise and love her clients like family members as well. Currently, Neungruethai is focusing on building up a consistent media business for the company.</p>
-                            <p class="email">Mobile: <span class="colored-text">086-880-4466</span></p>
-                        </div>     
-                    </div><!--slide item-->                                
-                </div>
-                <!-- end of masterslider -->
-                <div class="ms-staff-info" id="staff-info"> </div>
-            </div>
-            <!-- end of team slider -->
-        </div>
-    </div>
-        </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-        <div id="n-portfolio"><br><br><br></div>
-        <h3>Portfolio</h3>
-        <hr class="fancy-hr">              
-    </div>
-        </div></div><br>
-
-    <div class="container">
-        <div class="row">
-            <?php
-            $Nportfolio = portfolioN();
-            while ($nport = $Nportfolio->fetch_assoc()) {
-
-                $en_title = $nport["en_title"];
-                $len_title = strlen($en_title);
-                if ($len_title > 24) {
-                    $sub_title = substr($en_title, 0, 24);
-                    $enTitle = $sub_title . " ...";
-                } else {
-                    $enTitle = $en_title;
-                }
-
-                $en_desc = $nport["en_desc"];
-                $len_desc = strlen($en_desc);
-                if ($len_desc > 48) {
-                    $sub_desc = substr($en_desc, 0, 48);
-                    $enDesc = $sub_desc . " ...";
-                } else {
-                    $enDesc = $en_desc;
-                }
-                ?>
-                <div class="col-md-4 col-lg-4">
-                    <!-- normal -->
-                    <div class="ih-item square effect3 bottom_to_top" style="margin:20px"><a href="portfolio.php?id=<?php echo $nport["id"]; ?>" target="_blank">
-                            <div class="img"><img src="webadmin/file/portfolio/<?php echo $nport["fileNme"]; ?>"></div>
-                            <div class="info">
-                                <h3><?php echo $enTitle; ?></h3>
-                                <p style="margin-top: 0px"><?php echo $enDesc; ?></p>
-                            </div></a></div>
-                    <!-- end normal -->
-                </div>
-            <?php } ?>
-        </div><!--row-->
-        <br>
-        <div class="row">
-            <div class="col-sm-12">
-                <a href="portfolio-all.php?cpn=Newage" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 10%;" target="_blank">All PROJECT</a>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">        
-        <div id="n-client"><br><br><br></div>
-        <h3>Client</h3>
-        <hr class="fancy-hr">  
-        </div>
-            </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm12">
-        <div class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
-            <img width="100%" src="img/Logo_cus.jpg">
-        </div>
-    </div>
-        </div>
-    </div>
-
-    <!-- ############################################ END Newspective newage ############################-->
-    <div class="container">
-        <div class="row">
-        <div id="a-head"><br><br><br></div>        
-            <div class="col-sm-8 col-sm-offset-2">
-                <div class="text-center">
-                    <h2 class="center-title">Newspective Address</h2>
-                    <span class="center-border-line"></span>                           
-                </div>
-            </div>
-        </div><!--left title row end-->        
-    </div>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-        <div id="a-about"><br><br><br></div>
-        <h3>About Us & Our Service</h3>
-        <hr class="fancy-hr">
-            </div>
-            </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 of the 4 important factors of human’s living is accommodation. Having a good home is considered as human’s absolute happiness. Therefore, accommodation is human’s very important factor of life. A house, townhouse, condominium, office building these are called accommodation and having a good living throughout 366 days each year in an accommodation will give us a good life. <br><br>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The importance of this factor brings up business, we are pleased and ready to be  true friend to those who are looking for a good accommodation that brings happiness throughout 366 days in a year. <br><br>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Who Are We : We Are Property Agent</b><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Our Vision – Your Best Private Property Partner </b><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Our Mission -  Anytime You Need</b><br><br>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Excellent Service: We have expertise in being sole agent for your property projects and specialize in 3 service areas.<br><br>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Project Sale – Providing consultancy and being sole agent with high experienced sales team. Unlike the others, we focus on friendly sales, understand client’s needs and maximum service mind.<br><br>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Project Marketing – Marketing Consultancy for Real Estate business. We specialize in Online and Offline Marketing strategies that will help you achieve your target successfully. <br><br>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Project  Analysis -  Analysis Consultancy for the projects at all stages. We provide Marketing analysis, Sales analysis, Financial Analysis and Project Feasibility to make sure you have solid information for your projects to reach your goals since the early stage. <br><br>
-                </p>
-            </div>
-        </div>        
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm12">
-                <img class="img-responsive" src="img/200_MB.jpg" width="100%">
-            </div>
-        </div>
-    </div>
-
-
-            <div class="gray-cta">
-                <div class="container text-center scroll-to">
-                    <h2><span class="colored-text">“Anytime you need”</span></h2>   
-                    <hr style="width:10%; background-color:#B29036;height: 2px;">             
-                </div>
-            </div><!--gray cta-->
-
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                <div id="a-people"><br><br><br></div>
-                <h3>People</h3>
-                <hr class="fancy-hr">  
-                    </div>
-                </div>
-            </div>
-            <div class="testimonials parallax-2 dark">
-                <div class="container">
-                    <div class="text-center wow animated fadeInDown" data-wow-delay=".1s">
-                        <h2 class="center-title"> <span class="colored-text">Newspectie address </span></h2>                    
-                        <!--<p class="sub-text">Over 8000 extremely satisfied clients!</p>-->
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <div class="flexslider testi-slider wow animated fadeInUp" data-wow-delay=".2s">
-                                <ul class="slides">
-                                    <li>
-                                        <div class="testi-slider-item">
-                                          
-                                            <img src="img/Nattapoom.jpg" alt="">
-                                            <p style="font-size: 20px;">Mr.Nattapoom Ratchayakorn - <span class="colored-text">Group General Manager</span></p>
-                                           
-                                            <!--<p>
-                                                Started this business with love and passion, Nattapoom aims to help everyone getting a nice accommodation that creates everyday happiness.
-                                            </p> -->                                
-                                        </div>
-                                    </li><!--Single slide li-->
-                                    <li>
-                                        <div class="testi-slider-item">                                        
-                                            <p>
-                                                Started this business with love and passion, Nattapoom aims to help everyone getting a nice accommodation that creates everyday happiness.
-                                                With confidence from over 10 years in advertising industry, Nattapoom is ready to convey his experiences to develop real estate tasks for clients at his best capacity.
-                                                <br>
-                                                <span class="colored-text"><b> E-Mail : nattapoom@newspective.co.th</b></span><br>
-                                                <span class="colored-text"><b> Mobile : 081-439-5533</b></span><br>
-                                            </p>  
-                                            <hr style="width: 10%;">
-                                            
-                                                                           
-                                        </div>
-                                    </li><!--Single slide li-->
-
-                                    <li>
-                                        <div class="testi-slider-item">
-                                            <img src="img/Poompan.jpg" alt="">
-                                            <p style="font-size: 20px;">Mr. Poompan Pattaranutaporn - <span class="colored-text">Finance Director (Board Member)</span></p>
-                                                                                 
-                                        </div>
-                                    </li><!--Single slide li--> 
-                                    <li>
-                                        <div class="testi-slider-item">                                        
-                                            <p>
-                                                An auditor, financier, and real estate owner, Poompan has direct experiences from doing his personal business for more than a decade and will
-                                                bring his capacity to help managing accounting and financial related issues from messy to cozy. Poompan has an ability to transform difficulties in numbers to comfort but understandable figures that are necessary in real estate business. 
-                                                <br>
-                                                <span class="colored-text"><b> E-Mail : poompan@newspective.co.th</b></span><br>
-                                                <span class="colored-text"><b> Mobile : 089-779-9877</b></span><br>
-                                            <hr style="width: 10%;">                                      
-                                            </p>                                 
-                                        </div>
-                                    </li><!--Single slide li-->
-
-                                    <li>
-                                        <div class="testi-slider-item">
-                                            <img src="img/Muchaklit.jpg" alt="">
-                                            <p style="font-size: 20px;">Mr. Muchaklit Niwatkannumart - <span class="colored-text">Private Property Partner-Director (Board Member)</span></p>
-                                                                                    
-                                        </div>
-                                    </li><!--Single slide li-->
-                                    <li>
-                                        <div class="testi-slider-item">                                        
-                                            <p>
-                                                High experienced sales person who had sold almost everything but has special interest in real estate. Muchaklit is considered as one of the top sales person 
-                                                due to his variety of knowledge and trusted personality. All these aspects are equipped in Muchaklit and granted him an ability to lead sales team with creativity to the goals with full capacity. 
-                                                <br>
-                                                <span class="colored-text"><b> E-Mail : muchaklit@newspective.co.th</b></span><br>
-                                                <span class="colored-text"><b> Mobile : 094-794-3335</b></span><br>
-                                            <hr style="width: 10%;">                                      
-                                            </p>                                 
-                                        </div>
-                                    </li><!--Single slide li-->
-
-                                </ul>
+                    <div class="quote parallax-1">
+                        <div class="container text-center">
+                            <div class="col-sm-8 col-sm-offset-2 wow animated fadeIn" data-wow-delay=".1s">
+                                <p>
+                                    <span class="colored-text">
+                                        <b>“Never say no”</b><br>
+                                        We deliver all things you desire
+                                    </span>
+                                </p>                            
                             </div>
+                        </div>
+                    </div><!--quote section end-->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="n-people"><br><br><br></div>
+                    <h3>People</h3>
+                    <hr class="fancy-hr"> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- team slider -->
+                    <div class="ms-staff-carousel">
+                        <!-- masterslider -->
+                        <div class="master-slider" id="teamslider">
+                            <div class="ms-slide">
+                                <img src="assets/master-slider/style/blank.gif" data-src="img/Nattapoom.jpg" alt="lorem ipsum dolor sit"/>  
+
+                                <div class="ms-info text-center center-block" style="width: 60%">
+                                    <h3>Mr.Nattapoom Ratchayakorn</h3>
+                                    <h4>Group General Manager</h4>
+                                    <p class="email">E-Mail: <a href="mailto:nattapoom@newspective.co.th"><span class="colored-text">nattapoom@newspective.co.th</span></a></p>
+                                    <p>Former activity lover student who started his first career at OMD Thailand, followed by Dentsu Media Palette (Thailand) and began his own company at the age of 25. <br>Nattapoom has over 10 years of marketing experiences.</p>
+                                    <p class="email">Mobile: <span class="colored-text">+66 81-439-5533</span></p>
+                                </div>     
+                            </div><!--slide item-->
+
+                            <div class="ms-slide">
+                                <img src="assets/master-slider/style/blank.gif" data-src="img/Nuengruethai.jpg" alt="lorem ipsum dolor sit"/>  
+
+                                <div class="ms-info text-center center-block" style="width: 70%">
+                                    <h3>Miss Nuengruethai Bangnachard</h3>
+                                    <h4>Media Manager</h4>
+                                    <p class="email">E-Mail: <a href="mailto:nuengruethai@newspective.co.th"><span class="colored-text">nuengruethai@newspective.co.th</span></a></p>
+                                    <p>Former bright marketing student who studied what she loves and further work on it as a career, Nuengruethai joined Newspective since 7 years ago and has been playing important role to expand new media business for the company. She may be a small lady but very straight forward, precise and love her clients like family members as well. Currently, Neungruethai is focusing on building up a consistent media business for the company.</p>
+                                    <p class="email">Mobile: <span class="colored-text">+66 86-880-4466</span></p>
+                                </div>     
+                            </div><!--slide item--> 
+                            <div class="ms-slide">
+                                <img src="assets/master-slider/style/blank.gif" data-src="img/Mananya.jpg" alt="lorem ipsum dolor sit"/>  
+
+                                <div class="ms-info text-center center-block" style="width: 60%; height: 100%">
+                                    <h3>Miss Mananya Teyarajkul</h3>
+                                    <h4>Associate Business Director</h4>
+                                    <p class="email">E-Mail: <a href="mailto:mananya@newspective.co.th"><span class="colored-text">mananya@newspective.co.th</span></a></p>
+                                    <p>Former activity lover student who started her career at Newspective since 9 years ago as fresh graduate, Mananya is the important pillar for business development with clients. She has outstanding personality, quick, always come up with several ideas and love her clients like family members. Currently, Mananya is in charge of event business for Newspective.</p>
+                                    <p class="email">Mobile: <span class="colored-text">+66 81-625-2587</span></p>
+                                </div>     
+                            </div><!--slide item-->
+                        </div>
+                        <!-- end of masterslider -->
+                        <div class="ms-staff-info" id="staff-info"> </div>
+                    </div>
+                    <!-- end of team slider -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="n-portfolio"><br><br><br></div>
+                    <h3>Portfolio</h3>
+                    <hr class="fancy-hr">              
+                </div>
+            </div></div><br>
+
+        <div class="container">
+            <div class="row">
+                <?php
+                $Nportfolio = informationType('Newage');
+                while ($nport = $Nportfolio->fetch_assoc()) {
+
+                    $en_title = $nport["en_title"];
+                    $len_title = strlen($en_title);
+                    if ($len_title > 24) {
+                        $sub_title = substr($en_title, 0, 24);
+                        $enTitle = $sub_title . " ...";
+                    } else {
+                        $enTitle = $en_title;
+                    }
+
+                    $en_desc = $nport["en_desc"];
+                    $len_desc = strlen($en_desc);
+                    if ($len_desc > 48) {
+                        $sub_desc = substr($en_desc, 0, 48);
+                        $enDesc = $sub_desc . " ...";
+                    } else {
+                        $enDesc = $en_desc;
+                    }
+                    ?>
+                    <div class="col-md-4 col-lg-4">
+                        <!-- normal -->
+                        <div class="ih-item square effect3 bottom_to_top" style="margin:20px"><a href="more.php?id=<?php echo $nport["id"]; ?>" target="_blank">
+                                <div class="img"><img src="webadmin/file/<?php echo informationFileFilst($nport['id']) ?>"></div>
+                                <div class="info">
+                                    <h3><?php echo $enTitle; ?></h3>
+                                    <p style="margin-top: 0px"><?php echo $enDesc; ?></p>
+                                </div></a></div>
+                        <!-- end normal -->
+                    </div>
+                <?php } ?>
+            </div><!--row-->
+            <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="more-all.php?cpn=Newage" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 11%;" target="_blank">All PORTFOLIO</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">        
+                    <div id="n-client"><br><br><br></div>
+                    <h3>Client</h3>
+                    <hr class="fancy-hr">  
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm12">
+                    <div class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
+                        <img width="100%" src="img/Logo_cus.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ############################################ END Newspective newage ############################-->
+        <div class="container">
+            <div class="row">
+                <div id="a-head"><br><br><br></div>        
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="text-center">
+                        <h2 class="center-title">Newspective Address CO.,LTD.</h2>
+                        <span class="center-border-line"></span>                           
+                    </div>
+                </div>
+            </div><!--left title row end-->        
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="a-about"><br><br><br></div>
+                    <h3>About Us & Our Service</h3>
+                    <hr class="fancy-hr">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 of the 4 important factors of human’s living is accommodation. Having a good home is considered as human’s absolute happiness. Therefore, accommodation is human’s very important factor of life. A house, townhouse, condominium, office building these are called accommodation and having a good living throughout 366 days each year in an accommodation will give us a good life. <br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The importance of this factor brings up business, we are pleased and ready to be  true friend to those who are looking for a good accommodation that brings happiness throughout 366 days in a year. <br><br>
+                        <span class="colored-text">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Who Are We : We Are Property Agent</b><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Our Vision – Your Best Private Property Partner </b><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Our Mission -  Anytime You Need</b><br><br>
+                        </span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Excellent Service: We have expertise in being sole agent for your property projects and specialize in 3 service areas.<br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <b>Project Sale</b> – Providing consultancy and being sole agent with high experienced sales team. Unlike the others, we focus on friendly sales, understand client’s needs <br>and maximum service mind.<br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <b>Project Marketing</b> – Marketing Consultancy for Real Estate business. We specialize in Online and Offline Marketing strategies that will help you achieve your target successfully. <br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <b>Project  Analysis</b> -  Analysis Consultancy for the projects at all stages. We provide Marketing analysis, Sales analysis, Financial Analysis and Project Feasibility to make sure you have solid information for your projects to reach your goals since the early stage. <br><br>
+                    </p>
+                </div>
+            </div>        
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm12">
+                    <img class="img-responsive" src="img/200_MB.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gray-cta">
+            <div class="container text-center scroll-to">
+                <h1><span class="colored-text">“Anytime you need”</span></h1>   
+                <hr style="width:10%; background-color:#B29036;height: 2px;">             
+            </div>
+        </div><!--gray cta-->
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="a-people"><br><br><br></div>
+                    <h3>People</h3>
+                    <hr class="fancy-hr">  
+                </div>
+            </div>
+        </div>
+        <div class="testimonials parallax-2 dark">
+            <div class="container">
+                <div class="text-center wow animated fadeInDown" data-wow-delay=".1s">
+                    <h2 class="center-title"> <span class="colored-text">Newspective address CO.,LTD.</span></h2>                    
+                    <!--<p class="sub-text">Over 8000 extremely satisfied clients!</p>-->
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="flexslider testi-slider wow animated fadeInUp" data-wow-delay=".2s">
+                            <ul class="slides">
+                                <li>
+                                    <div class="testi-slider-item">
+
+                                        <img src="img/Nattapoom.jpg" alt="">
+                                        <p style="font-size: 20px;">Mr.Nattapoom Ratchayakorn - <span class="colored-text">Group General Manager</span></p>
+
+ <!--<p>
+     Started this business with love and passion, Nattapoom aims to help everyone getting a nice accommodation that creates everyday happiness.
+ </p> -->                                
+                                    </div>
+                                </li><!--Single slide li-->
+                                <li>
+                                    <div class="testi-slider-item">                                        
+                                        <p>
+                                            Started this business with love and passion, Nattapoom aims to help everyone getting a nice accommodation that creates everyday happiness.
+                                            With confidence from over 10 years in advertising industry, Nattapoom is ready to convey his experiences to develop real estate tasks for clients at his best capacity.
+                                            <br>
+                                            <a href="mailto:nattapoom@newspective.co.th"><span class="colored-text"><b> E-Mail : nattapoom@newspective.co.th</b></span></a><br>
+                                            <span class="colored-text"><b> Mobile : +66 81-439-5533</b></span><br>
+                                        </p>  
+                                        <hr style="width: 10%;">
+
+
+                                    </div>
+                                </li><!--Single slide li-->
+
+                                <li>
+                                    <div class="testi-slider-item">
+                                        <img src="img/Poompan.jpg" alt="">
+                                        <p style="font-size: 20px;">Mr. Poompan Pattaranutaporn - <span class="colored-text">Finance Director (Board Member)</span></p>
+
+                                    </div>
+                                </li><!--Single slide li--> 
+                                <li>
+                                    <div class="testi-slider-item">                                        
+                                        <p>
+                                            An auditor, financier, and real estate owner, Poompan has direct experiences from doing his personal business for more than a decade and will
+                                            bring his capacity to help managing accounting and financial related issues from messy to cozy. Poompan has an ability to transform difficulties in numbers to comfort but understandable figures that are necessary in real estate business. 
+                                            <br>
+                                            <a href="mailto:poompan@newspective.co.th"><span class="colored-text"><b> E-Mail : poompan@newspective.co.th</b></span></a><br>
+                                            <span class="colored-text"><b> Mobile : +66 89-779-9877</b></span><br>
+                                        <hr style="width: 10%;">                                      
+                                        </p>                                 
+                                    </div>
+                                </li><!--Single slide li-->
+
+                                <li>
+                                    <div class="testi-slider-item">
+                                        <img src="img/Muchaklit.jpg" alt="">
+                                        <p style="font-size: 20px;">Mr. Muchaklit Niwatkannumart - <span class="colored-text">Private Property Partner-Director (Board Member)</span></p>
+
+                                    </div>
+                                </li><!--Single slide li-->
+                                <li>
+                                    <div class="testi-slider-item">                                        
+                                        <p>
+                                            High experienced sales person who had sold almost everything but has special interest in real estate. Muchaklit is considered as one of the top sales person 
+                                            due to his variety of knowledge and trusted personality. All these aspects are equipped in Muchaklit and granted him an ability to lead sales team with creativity to the goals with full capacity. 
+                                            <br>
+                                            <a href="mailto:muchaklit@newspective.co.th"><span class="colored-text"><b> E-Mail : muchaklit@newspective.co.th</b></span></a><br>
+                                            <span class="colored-text"><b> Mobile : +66 94-794-3335</b></span><br>
+                                        <hr style="width: 10%;">                                      
+                                        </p>                                 
+                                    </div>
+                                </li><!--Single slide li-->
+
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div><!--testimonials-->
+            </div>
+        </div><!--testimonials-->
 
-<div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                <div id="a-portfolio"><br><br><br></div>
-                <h3>Portfolio</h3>
-                <hr class="fancy-hr">
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="a-portfolio"><br><br><br></div>
+                    <h3>Portfolio</h3>
+                    <hr class="fancy-hr">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <img class="img-responsive" src="img/Address_Portfolio.png" alt="" width="100%">
-                    </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="img-responsive" src="img/Address_Portfolio.png" alt="" width="100%">
                 </div>
             </div>
-            <br>
-            <br>
-            <br>
-            
-             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">                    
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">                    
                     <h4>Current Project</h4>
-                    </div>
-                </div>       
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
+                </div>
+            </div>       
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
                     <table class="table table-hover">
                         <thead>
                             <tr>
@@ -1163,20 +1164,20 @@ include_once("includes/functions-web.php");
                             </tr>                        
                         </tbody>
                     </table>
-                    </div>
                 </div>
             </div>
-  <br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">                    
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">                    
                     <h4>Reference Project</h4>
-                    </div>
-                </div>       
-            </div>          
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
+                </div>
+            </div>       
+        </div>          
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
                     <table class="table table-hover">
                         <thead>
                             <tr>
@@ -1226,10 +1227,10 @@ include_once("includes/functions-web.php");
 
                         </tbody>
                     </table>
-                    </div>
                 </div>
             </div>
-            <div class="container">
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <!-- team slider -->
@@ -1242,9 +1243,9 @@ include_once("includes/functions-web.php");
                                 <div class="ms-info text-center">
                                     <h3>Mr.Nattapoom Ratchayakorn</h3>
                                     <h4>Group General Manager</h4>
-                                    <p class="email">E-Mail: <a href="#">nattapoom@newspective.co.th</a></p>
-                                    <p>Former activity lover student who started his first career at M=OMD Thailand, followed by Dentsu Media Palette (Thailand) and began his own company at the age of 25. Nattapoom has over 10 years of marketing experiences.</p>
-                                    <p class="email">Mobile: <a href="#">081-439-5533</a></p>
+                                    <p class="email">E-Mail: <a href="mailto:nattapoom@newspective">nattapoom@newspective.co.th</a></p>
+                                    <p>Former activity lover student who started his first career at OMD Thailand, followed by Dentsu Media Palette (Thailand) and began his own company at the age of 25. Nattapoom has over 10 years of marketing experiences.</p>
+                                    <p class="email">Mobile: <a href="#">+66 81-439-5533</a></p>
                                 </div>     
                             </div><!--slide item-->
                             <div class="ms-slide">
@@ -1253,9 +1254,9 @@ include_once("includes/functions-web.php");
                                 <div class="ms-info text-center">
                                     <h3>Miss Mananya Teyarajkul</h3>
                                     <h4>Associate Business Director</h4>
-                                    <p class="email">E-Mail: <a href="#">mananya@newspective.co.th</a></p>
+                                    <p class="email">E-Mail: <a href="mailto:mananya@newspective.co.th">mananya@newspective.co.th</a></p>
                                     <p>Former activity lover student who started her career at Newspective since 9 years ago as fresh graduate, Mananya is the important pillar for business development with clients. She has outstanding personality, quick, always come up with several ideas and love her clients like family members. Currently, Mananya is in charge of event business for Newspective.</p>
-                                    <p class="email">Mobile: <a href="#">081-625-2587</a></p>
+                                    <p class="email">Mobile: <a href="#">+66 81-625-2587</a></p>
                                 </div>     
                             </div><!--slide item-->
                             <div class="ms-slide">
@@ -1264,9 +1265,9 @@ include_once("includes/functions-web.php");
                                 <div class="ms-info text-center">
                                     <h3>Miss Nuengruethai Bangnachat</h3>
                                     <h4>Media Manager</h4>
-                                    <p class="email">E-Mail: <a href="#">nuengruethai@newspective.co.th</a></p>
+                                    <p class="email">E-Mail: <a href="mailto:nuengruethai@newspective.co.th">nuengruethai@newspective.co.th</a></p>
                                     <p>Former bright marketing student who studied what she loves and further work on it as a career, Nuengruethai joined Newspective since 7 years ago and has been playing important role to expand new media business for the company. She may be a small lady but very straight forward, precise and love her clients like family members as well. Currently, Neungruethai is focusing on building up a consistent media business for the company.</p>
-                                    <p class="email">Mobile: <a href="#">086-880-4466</a></p>
+                                    <p class="email">Mobile: <a href="#">+66 86-880-4466</a></p>
                                 </div>     
                             </div><!--slide item-->                                
                         </div>
@@ -1276,376 +1277,367 @@ include_once("includes/functions-web.php");
                     <!-- end of team slider -->
                 </div>
             </div>
-            </div>
+        </div>
 
-            
-
-            <div class="container">
-                <div class="row">
-                    <?php
-                    $Aportfolio = portfolioA();
-                    while ($aport = $Aportfolio->fetch_assoc()) {
-
-                        $en_title = $aport["en_title"];
-                        $len_title = strlen($en_title);
-                        if ($len_title > 24) {
-                            $sub_title = substr($en_title, 0, 24);
-                            $enTitle = $sub_title . " ...";
-                        } else {
-                            $enTitle = $en_title;
-                        }
-
-
-                        $en_desc = $aport["en_desc"];
-                        $len_desc = strlen($en_desc);
-                        if ($len_desc > 48) {
-                            $sub_desc = substr($en_desc, 0, 48);
-                            $enDesc = $sub_desc . " ...";
-                        } else {
-                            $enDesc = $en_desc;
-                        }
-                        ?>
-                        <div class="col-md-4 col-lg-4">
-                            <!-- normal -->
-                            <div class="ih-item square effect3 bottom_to_top" style="margin:20px"><a href="portfolio.php?id=<?php echo $aport["id"]; ?>" target="_blank">
-                                    <div class="img"><img src="webadmin/file/portfolio/<?php echo $aport["fileNme"]; ?>"></div>
-                                    <div class="info">
-                                        <h3><?php echo $enTitle ?></h3>
-                                        <p style="margin-top: 0px"><?php echo $enDesc ?></p>
-                                    </div></a></div>
-                            <!-- end normal -->
-                        </div>
-                    <?php } ?>
-                </div><!--row-->
-                <br>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <a href="portfolio-all.php?cpn=Address" class="btn btn-lg btn-block btn-dark-bg center-block" style="width: 10%;" target="_blank">All PROJECT</a>
-                    </div>
+        <div class="container">                
+            <div class="row">  
+                <div class="col-sm-12">
+                    <div id="a-client"><br><br><br></div>
+                    <h3>Client</h3>
+                    <hr class="fancy-hr">              
                 </div>
             </div>
+        </div>
 
-    <div class="container">                
-        <div class="row">  
-            <div class="col-sm-12">
-                <div id="a-client"><br><br><br></div>
-                <h3>Client</h3>
-                <hr class="fancy-hr">              
+        <div class="container">                
+            <div class="row"> 
+                <div class="col-sm-12">
+                    <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">               
+                        <b>KD Asset & Development Co.,Ltd.</b><br>
+                        <b>Raimon Land PCL</b><br>
+                        <b>Pieamsuk Development Co.,Ltd.</b><br>
+                        <b>Ban Rub Lom Co.,Ltd.</b><br>
+                        <b>VISPAC Co.,Ltd.</b><br>
+                        <b>Porchland Group</b><br>
+                    </p>                              
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">                
-        <div class="row"> 
-            <div class="col-sm-12">
-            <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">               
-                <b>KD Asset & Development Co.,Ltd.</b><br>
-<b>Raimon Land PCL</b><br>
-<b>Pieamsuk Development Co.,Ltd.</b><br>
-<b>Ban Rub Lom Co.,Ltd.</b><br>
-<b>VISPAC Co.,Ltd.</b><br>
-<b>Porchland Group</b><br>
-            </p>                              
-        </div>
-        </div>
-    </div>
+        <!-- ############################################ END Newspective address ############################-->
 
-    <!-- ############################################ END Newspective address ############################-->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-        <div id="csr"><br><br><br></div>
-        <div class="text-center wow animated bounceIn" data-wow-delay=".1s">
-            <h2 class="center-title"> Corporate Social Responsibility</h2>
-            <span class="center-border-line"></span>
-            <br>
-            <br>
-            <img class="img-responsive" src="img/csr.png" alt="" width="100%">
-            <br>
-            <p class="sub-text">Newspective believes that educational development and consistent learning  can create a better life. Therefore, we emphasize on education and learning process of the youth so that we have started these 2 programs continuously </p>
-        </div>
-    </div>   
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-        <div id="mbs"><br><br><br></div>
-        <h3>“Make it Better” Scholarship </h3>
-        <hr class="fancy-hr">  
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="csr"><br><br><br></div>
+                    <div class="text-center wow animated bounceIn" data-wow-delay=".1s">
+                        <h2 class="center-title"> Corporate Social Responsibility</h2>
+                        <span class="center-border-line"></span>
+                        <br>
+                        <br>
+                        <img class="img-responsive" src="img/csr.png" alt="" width="100%">
+                        <br>
+                        <p class="sub-text">Newspective believes that educational development and consistent learning  can create a better life. Therefore, we emphasize on education and learning process of the youth so that we have started these 2 programs continuously </p>
+                    </div>
+                </div>   
             </div>
         </div>
-    </div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-        <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective realizes the necessity of Hi-school education, thus, we have been giving scholarship to students who show their dedication to study and beneficial activities. Having started since last year, we have now been supporting these students their tuition fees upon their Hi-school graduations.
-            <br>
-            <br>
-            <b>2014</b><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Ms. Chanita Mungmee - Grade 10, Singsamut School<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Mr. Chakrapong Wongyoo - Grade 10, Singsamut School<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ms. Araya Trongyong - Grade 11, Singsamut School<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Ms. Nisarat Butrdee - Grade 12, Singsamut School<br>
-            <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Not only Hi-school but Newspective has been giving scholarship to colleage students also. They are<br>
-            <b>2014</b><br>
-            <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. (รอชื่อ)                   Tianjin University China<br>-->
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Ms. Areerat Rungreang	Tianjin Normal University, China<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Ms. Suwimol Athikiat Boromarajonani College of Nursing, Cnonburi<br>
-            </p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="mbs"><br><br><br></div>
+                    <h3>“Make it Better” Scholarship </h3>
+                    <hr class="fancy-hr">  
+                </div>
             </div>
         </div>
-        </div>
-    
- 
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective realizes the necessity of Hi-school education, thus, we have been giving scholarship to students who show their dedication to study and beneficial activities. Having started since last year, we have now been supporting these students their tuition fees upon their Hi-school graduations.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12"><b>2014</b></div>
+            </div>
+            <div class="row">                
+                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Ms. Chanita Mungmee</div>
+                <div class="col-sm-1">Grade 10,</div>
+                <div class="col-sm-3">Singsamut School</div>
+                <div class="col-sm-5"></div>
+            </div>
+            <div class="row">                
+                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Mr. Chakrapong Wongyoo</div>
+                <div class="col-sm-1">Grade 10,</div>
+                <div class="col-sm-3">Singsamut School</div>
+                <div class="col-sm-5"></div>
+            </div>
+            <div class="row">                
+                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ms. Araya Trongyong</div>
+                <div class="col-sm-1">Grade 11,</div>
+                <div class="col-sm-3">Singsamut School</div>
+                <div class="col-sm-5"></div>
+            </div>
+            <div class="row">                
+                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Ms. Nisarat Butrdee</div>
+                <div class="col-sm-1">Grade 12,</div>
+                <div class="col-sm-3">Singsamut School</div>
+                <div class="col-sm-5"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Not only Hi-school but Newspective has been giving scholarship to colleage students also. They are</div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-12"><b>2014</b></div>
+            </div>
+            <div class="row">                
+                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Ms. Areerat Rungreang</div>
+                <div class="col-sm-3">Tianjin Normal University,</div>
+                <div class="col-sm-3">China</div>
+                <div class="col-sm-4"></div>
+            </div>
+            <div class="row">                
+                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Ms. Suwimol Athikiat</div>
+                <div class="col-sm-3">Boromarajonani College of Nursing,</div>
+                <div class="col-sm-3">Chonburi</div>
+                <div class="col-sm-4"></div>
+            </div>                          
+        </div><!--div container-->
+        <br>
+
+
         <div class="gray-cta">
             <div class="container text-center scroll-to">
-                <h2><span class="colored-text">“Education Makes Your Life Better”</span></h2>   
+                <h1><span class="colored-text">“Education Makes Your Life Better”</span></h1>   
                 <hr style="width:10%; background-color:#B29036;height: 2px;">             
             </div>
         </div><!--gray cta-->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-            <div id="mbt"><br><br><br></div>
-        <h3>“Make it Better” Internship</h3>
-        <hr class="fancy-hr">              
-    </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-            <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective realizes the importance of learning process during college time so that we have continuously been giving opportunities to qualified college student to work with us as trainees up until now. They are…<br><br>
-            <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. รอรายชื่อ-->
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Students who would like to join Newspective’s internship program please contact<br>
-            <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Miss Nuengruethai Bangnachat - Media Manager<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-Mail : nuengruethai@newspective.co.th<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile : 086-880-4466<br>
-
-        </p>
-    </div>
-    </div>
-    </div>
-        
-    <div class="gray-cta">
-        <div class="container text-center scroll-to">
-            <h2><span class="colored-text">“Internship opportunity opens all year round, <br>just show us your strong will and we will train you to be expert”</span></h2>   
-            <hr style="width:10%; background-color:#B29036;height: 2px;">             
-        </div>
-    </div><!--gray cta-->
-
-    <div id="careers"><br><br></div>
-    <div class="call-to-action cta-1 parallax-3">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2 text-center wow animated fadeInDown" data-wow-delay=".1s">
-                    <h2>Newspective Careers</h2>
-                    <a href="http://www.jobthai.com/job/0,765419.html" target="_blank" class="btn btn-white btn-lg wow animated fadeInDown" data-wow-delay=".2s">
-                        <span> Position : Personal Assistance</span>
-                    </a> 
+                <div class="col-sm-12">
+                    <div id="mbt"><br><br><br></div>
+                    <h3>“Make it Better” Internship</h3>
+                    <hr class="fancy-hr">              
                 </div>
             </div>
         </div>
-    </div><!--call to action-->
-    <section id="contact" class="section-padding">
+
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-md-offset-2">
-                    <div class="text-center">
-                        <h2 class="center-title" id="address">Contact Us</h2>
-                        <span class="center-border-line"></span>
-                        <p class="sub-text"><b>Newspective Group</b><br>
-                            163 Soi Sukhumvit 62/1, Bangchak, Phakanong, Bangkok, 10260. Thailand.<br>
-                            Tel & Fax : 02-741-7225 E-Mail : nattapoom@newspective.co.th<br>
-                            Social Network : <a href="https://www.facebook.com/newspective.address" target="_blank"> Facebook.com/Newspective</a>
-                        </p>
+                <div class="col-sm-12">
+                    <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective realizes the importance of learning process during college time so that we have continuously been giving opportunities to qualified college student to work with us as trainees up until now. They are…<br><br>
+                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. รอรายชื่อ-->
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Students who would like to join Newspective’s internship program please contact<br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Miss Nuengruethai Bangnachat - Media Manager<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="nuengruethai@newspective.co.th"><span style="color:#777777">E-Mail : nuengruethai@newspective.co.th</span></a><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile : +66 86-880-4466<br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gray-cta">
+            <div class="container text-center scroll-to">
+                <h1><span class="colored-text">“Internship opportunity opens all year round, <br>just show us your strong will and we will train you to be expert”</span></h1>   
+                <hr style="width:10%; background-color:#B29036;height: 2px;">             
+            </div>
+        </div><!--gray cta-->
+
+        <div id="careers"><br><br></div>
+        <div class="call-to-action cta-1 parallax-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text-center wow animated fadeInDown" data-wow-delay=".1s">
+                        <h2>Newspective Careers</h2>
+                        <a href="http://www.jobthai.com/job/0,765419.html" target="_blank" class="btn btn-white btn-lg wow animated fadeInDown" data-wow-delay=".2s">
+                            <span> Position : Personal Assistance</span>
+                        </a> 
                     </div>
                 </div>
-            </div>               
-            <div class="row">
-                <div class="col-sm-7"><br><br><br>
-                    <h2 class="elements-title">Newspective Contact</h2>
-                    <hr class="fancy-hr">
-                    <div class="contact-form wow animated fadeInLeft" data-wow-delay=".2s">
+            </div>
+        </div><!--call to action-->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-offset-2">
+                        <div class="text-center">
+                            <h2 class="center-title" id="address">Contact Us</h2>
+                            <span class="center-border-line"></span>
+                            <p class="sub-text"><b>Newspective Group</b></p>
+                            <p>
+                                163 Soi Sukhumvit 62/1, Bangchak, Phakanong, Bangkok, 10260. Thailand.<br>
+                                Tel & Fax : 02-741-7225 <a href="mailto:nattapoom@newspective.co.th"><span style="color:#777777">E-Mail : nattapoom@newspective.co.th</span></a><br>
+                                <!--<a href="https://www.facebook.com/newspective.address" target="_blank"><span style="color:#777777">Facebook.com/Newspective</span></a>-->
+                            </p>
+                        </div>
+                    </div>
+                </div>               
+                <div class="row">
+                    <div class="col-sm-7"><br><br><br>
+                        <h2 class="elements-title">Newspective Contact</h2>
+                        <hr class="fancy-hr">
+                        <div class="contact-form wow animated fadeInLeft" data-wow-delay=".2s">
 
-                        <form role="form" id="feedbackForm">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <div class="form-group">
-                                        <label class="control-label" for="name">Name *</label>
-                                        <div>
-                                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" />
+                            <form role="form" id="feedbackForm">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="form-group">
+                                            <label class="control-label" for="name">Name *</label>
+                                            <div>
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" />
 
-                                        </div>
-                                        <span class="help-block" style="display: none;">Please enter your name.</span>
-                                    </div> 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <div class="form-group">
-                                        <label class="control-label" for="email">Email Address *</label>
-                                        <div>
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" />
-
-                                        </div>
-                                        <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+                                            </div>
+                                            <span class="help-block" style="display: none;">Please enter your name.</span>
+                                        </div> 
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" for="message">Message *</label>
-                                <div>
-                                    <textarea rows="5" cols="30" class="form-control" id="message" name="message" placeholder="Enter your message" ></textarea>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="form-group">
+                                            <label class="control-label" for="email">Email Address *</label>
+                                            <div>
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" />
 
+                                            </div>
+                                            <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <span class="help-block" style="display: none;">Please enter a message.</span>
-                            </div>
-                            <img id="captcha" src="assets/form/library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
-                            <a href="#" onclick="document.getElementById('captcha').src = 'assets/form/library/vender/securimage/securimage_show.php?' + Math.random();
+                                <div class="form-group">
+                                    <label class="control-label" for="message">Message *</label>
+                                    <div>
+                                        <textarea rows="5" cols="30" class="form-control" id="message" name="message" placeholder="Enter your message" ></textarea>
+
+                                    </div>
+                                    <span class="help-block" style="display: none;">Please enter a message.</span>
+                                </div>
+                                <img id="captcha" src="assets/form/library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
+                                <a href="#" onclick="document.getElementById('captcha').src = 'assets/form/library/vender/securimage/securimage_show.php?' + Math.random();
                                     return false" class="btn btn-dark-bg btn-sm"><i class="ion-refresh"></i> Show a Different Image</a><br/>
-                            <div class="form-group" style="margin-top: 10px;">
-                                <label class="control-label" for="captcha_code">Text Within Image *</label>
-                                <div>
-                                    <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="For security, please enter the code displayed in the box." />
+                                <div class="form-group" style="margin-top: 10px;">
+                                    <label class="control-label" for="captcha_code">Text Within Image *</label>
+                                    <div>
+                                        <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="For security, please enter the code displayed in the box." />
 
+                                    </div>
+                                    <span class="help-block" style="display: none;">Please enter the code displayed within the image.</span>
                                 </div>
-                                <span class="help-block" style="display: none;">Please enter the code displayed within the image.</span>
-                            </div>
-                            <span class="help-block" style="display: none;">Please enter a the security code.</span>
-                            <button type="submit" id="feedbackSubmit" class="btn btn-dark-bg btn-lg" data-loading-text="Sending..." style="display: block; margin-top: 10px;">Send Feedback</button>
-                        </form>
-                    </div><!--contact form-->
-                </div><!--col-7--> 
-                <div id="google-map"></div><br><br><br>
-                <div class="col-sm-5">
-                    <h2 class="elements-title">Google map</h2>
-                    <hr class="fancy-hr">
-                    <div id="map-canvas" style="width:100%; height: 300px;"></div>
-                    <div id="map-download"></div>
-                    <br>
-                    <br>
-                    <br>
-                    <h2 class="elements-title">Map Download</h2>
-                    <hr class="fancy-hr">
-                    <!--<a herf="web.php" download class="btn btn-lg btn-block btn-dark-bg">Download</a>-->
-                    <a href="img/Map.pdf" class="btn btn-lg btn-block btn-dark-bg" download>Download</a>
+                                <span class="help-block" style="display: none;">Please enter a the security code.</span>
+                                <button type="submit" id="feedbackSubmit" class="btn btn-dark-bg btn-lg" data-loading-text="Sending..." style="display: block; margin-top: 10px;">Send Feedback</button>
+                            </form>
+                        </div><!--contact form-->
+                    </div><!--col-7--> 
+                    <div id="google-map"></div><br><br><br>
+                    <div class="col-sm-5">
+                        <h2 class="elements-title">Google Map</h2>
+                        <hr class="fancy-hr">
+                        <div id="map-canvas" style="width:100%; height: 300px;"></div>
+                        <div id="map-download"></div>
+                        <br>
+                        <br>
+                        <br>
+                        <h2 class="elements-title">Map Download</h2>
+                        <hr class="fancy-hr">
+                        <!--<a herf="web.php" download class="btn btn-lg btn-block btn-dark-bg">Download</a>-->
+                        <a href="img/Map.pdf" class="btn btn-lg btn-block btn-dark-bg" download>Download</a>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+        </section><!--contact section end-->
+
+        <div class="numbers-cta">
+            <div class="container">
+                <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
+                    <i class="ion-android-call"></i>
+                    <h3>Tel. +662-741-7225</h3>
                 </div>
-            </div><!--row-->
-        </div><!--container-->
-    </section><!--contact section end-->
-
-    <div class="numbers-cta">
-        <div class="container">
-            <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
-                <i class="ion-android-call"></i>
-                <h3>Tel. 02-741-7225</h3>
-            </div>
-            <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
-                <i class="ion-email"></i>
-                <h3>nattapoom@newspective.co.th</h3>
-            </div>
-            <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
-                <i class="ion-location"></i>
-                <h3>62 Soi Sukhumvit 62, Yak 8-5, Bangchak, Phakanong, Bangkok, 10260. Thailand.</h3>
-            </div>
-            <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
-                <i class="ion-ios-printer"></i>
-                <h3>Fax. 02-741-7225</h3>
+                <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
+                    <i class="ion-email"></i>
+                    <a href="mailto:nattapoom@newspective.co.th"><h3>nattapoom@newspective.co.th</h3></a>
+                </div>
+                <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
+                    <i class="ion-location"></i>
+                    <h3>163 Soi Sukhumvit 62/1, Bangchak, Phakanong, Bangkok, 10260. Thailand.</h3>
+                </div>
+                <div class="col-sm-6 col-md-3 margin-bottom30 text-center">
+                    <i class="ion-ios-printer"></i>
+                    <h3>Fax. +662-741-7225</h3>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <footer class="footer">
-        <div class="container text-center">
-            <a href="#home"><img src="img/logo.gif" alt="" width="50%"></a>
-            <ul class="list-inline socials">
-                <li><a href="https://www.facebook.com/newspective.address" target="_blank" class="fb"><i class="ion-social-facebook-outline"></i></a></li>
-                <li><a href="#" class="yout"><i class="ion-social-youtube-outline"></i></a></li>
-                <!--<li><a href="#" class="twit"><i class="ion-social-twitter-outline"></i></a></li>
-                <li><a href="#" class="g-plus"><i class="ion-social-googleplus-outline"></i></a></li>                    
-                <li><a href="#" class="drib"><i class="ion-social-dribbble-outline"></i></a></li>-->
-            </ul>
-            <p>&copy; 2015. Newspective Group
-        </div>
-    </footer><!--footer end-->
+        <footer class="footer">
+            <div class="container text-center">
+                <a href="#home"><img src="img/logo.gif" alt="" width="50%"></a>
+                <ul class="list-inline socials">
+                    <li><a href="https://www.facebook.com/newspective.address" target="_blank" class="fb"><i class="ion-social-facebook-outline"></i></a></li>
+                    <li><a href="#" class="yout"><i class="ion-social-youtube-outline"></i></a></li>
+                    <li><a href="#" class="line"><img src="img/line.jpg" width="40px"></a></li>
+                    <!--<li><a href="#" class="twit"><i class="ion-social-twitter-outline"></i></a></li>
+                    <li><a href="#" class="g-plus"><i class="ion-social-googleplus-outline"></i></a></li>                    
+                    <li><a href="#" class="drib"><i class="ion-social-dribbble-outline"></i></a></li>-->
+                </ul>
+                <p>&copy; 2015. Newspective Group
+            </div>
+        </footer><!--footer end-->
 
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript">
-                                var myLatlng;
-                                var map;
-                                var marker;
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript">
+                                    var myLatlng;
+                                    var map;
+                                    var marker;
 
-                                function initialize() {
-                                    myLatlng = new google.maps.LatLng(13.690690, 100.602147);
+                                    function initialize() {
+                                        myLatlng = new google.maps.LatLng(13.690690, 100.602147);
 
-                                    var mapOptions = {
-                                        zoom: 13,
-                                        center: myLatlng,
-                                        mapTypeId: google.maps.MapTypeId.ROADMAP,
-                                        scrollwheel: false,
-                                        draggable: true
-                                    };
-                                    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+                                        var mapOptions = {
+                                            zoom: 13,
+                                            center: myLatlng,
+                                            mapTypeId: google.maps.MapTypeId.ROADMAP,
+                                            scrollwheel: false,
+                                            draggable: true
+                                        };
+                                        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-                                    var contentString = '<p>123 My Street, bavely City, CA 4567</p>';
+                                        var contentString = '<p><b>Newspective Group</b><br> 163 Soi Sukhumvit 62/1, Bangchak, Phakanong, Bangkok, 10260. Thailand. <br>Tel & Fax : 02-741-7225</p>';
 
-                                    var infowindow = new google.maps.InfoWindow({
-                                        content: contentString
-                                    });
+                                        var infowindow = new google.maps.InfoWindow({
+                                            content: contentString
+                                        });
 
-                                    marker = new google.maps.Marker({
-                                        position: myLatlng,
-                                        map: map,
-                                        title: 'Marker'
-                                    });
+                                        marker = new google.maps.Marker({
+                                            position: myLatlng,
+                                            map: map,
+                                            title: 'Marker'
+                                        });
 
-                                    google.maps.event.addListener(marker, 'click', function () {
-                                        infowindow.open(map, marker);
-                                    });
-                                }
+                                        google.maps.event.addListener(marker, 'click', function () {
+                                            infowindow.open(map, marker);
+                                        });
+                                    }
 
-                                google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-    <!--<script src="scripts/app.js"></script>-->
-    <!--jquery-->
-    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/js/jquery-migrate.min.js" type="text/javascript"></script> 
-    <script src="assets/js/moderniz.min.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="assets/js/parallax.min.js"></script>
-    <script src="assets/js/tweetie.min.js" type="text/javascript"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.sticky.js" type="text/javascript"></script>  
-    <script src="assets/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-    <script src="assets/js/wow.min.js" type="text/javascript"></script>
-    <script src="assets/js/template.js" type="text/javascript"></script>
-    <script src="assets/js/contact-form.js" type="text/javascript"></script>
-    <script src="assets/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-    <script src="assets/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script> 
-    <script src="assets/js/revolution-custom.js" type="text/javascript"></script>
-    <script src="assets/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
-    <script src="assets/js/cube-portfolio.js" type="text/javascript"></script>
-    <script src="assets/js/pricing.js" type="text/javascript"></script>
-    <!--master slider-->
-    <script src="assets/master-slider/js/masterslider.min.js" type="text/javascript"></script>
-    <script src="assets/js/masterslider-custom.js" type="text/javascript"></script>
+                                    google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <!--<script src="scripts/app.js"></script>-->
+        <!--jquery-->
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery-migrate.min.js" type="text/javascript"></script> 
+        <script src="assets/js/moderniz.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.easing.1.3.js" type="text/javascript"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="assets/js/parallax.min.js"></script>
+        <script src="assets/js/tweetie.min.js" type="text/javascript"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/jquery.sticky.js" type="text/javascript"></script>  
+        <script src="assets/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="assets/js/wow.min.js" type="text/javascript"></script>
+        <script src="assets/js/template.js" type="text/javascript"></script>
+        <script src="assets/js/contact-form.js" type="text/javascript"></script>
+        <script src="assets/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="assets/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script> 
+        <script src="assets/js/revolution-custom.js" type="text/javascript"></script>
+        <script src="assets/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <script src="assets/js/cube-portfolio.js" type="text/javascript"></script>
+        <script src="assets/js/pricing.js" type="text/javascript"></script>
+        <!--master slider-->
+        <script src="assets/master-slider/js/masterslider.min.js" type="text/javascript"></script>
+        <script src="assets/js/masterslider-custom.js" type="text/javascript"></script>
 
 
 
-</body>
+    </body>
 </html>

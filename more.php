@@ -77,9 +77,11 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                     </div>
                                 </div><!--entry media-->
                                 <h3 class="entry-title"><?php echo $portfolioQurery["en_title"];?></h3>
-                                <h6 class="entry-author"><?php echo $portfolioQurery["en_desc"];?></h6>
+                                <h6 class="entry-author">
+                                    <?php echo $portfolioQurery["dte"]?><br><br>
+                                    <?php echo $portfolioQurery["en_desc"];?></h6>
                                 <p class="post-text">
-                                    <?php echo $portfolioQurery["en_detail"];?>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $portfolioQurery["en_detail"];?>
                                 </p>
                             </div><!--blog content-->
                         </div><!--blog entry-->
@@ -146,9 +148,9 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                     ?>
                                     
                                     <li class="clearfix">
-                                        <a href="portfolio.php?id=<?php echo $rowLast["id"]?>" class="post-thumb"> <img src="webadmin/file/<?php echo $rowLast['text_data']?>" class="img-responsive" alt="<?php echo $rowLast["en_title"];?>"></a>
+                                        <a href="more.php?id=<?php echo $rowLast["id"]?>" class="post-thumb"> <img src="webadmin/file/<?php echo $rowLast['text_data']?>" class="img-responsive" alt="<?php echo $rowLast["en_title"];?>"></a>
                                         <div class="recent-post-content">
-                                            <a href="portfolio.php?id=<?php echo $rowLast["id"]?>">
+                                            <a href="more.php?id=<?php echo $rowLast["id"]?>">
                                                 <?php echo $rowLast["en_title"];?>
                                             </a>
                                             <!--<span>John doe, 26 april 2015</span>-->
@@ -179,7 +181,7 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                 </p>
                             </div><!--sidebar widget-->
                             <div class="sidebar-widget">    
-                                <a href="portfolio-all.php?cpn=<?php echo $portfolioQurery["type_group"];?>" class="btn btn-lg btn-block btn-dark-bg">All PROJECT</a>    
+                                <a href="more-all.php?cpn=<?php echo $portfolioQurery["type_group"];?>" class="btn btn-lg btn-block btn-dark-bg">All PROJECT</a>    
                             </div>
                             <div class="sidebar-widget">
                                 <h3 class="sidebar-title">Tags</h3>

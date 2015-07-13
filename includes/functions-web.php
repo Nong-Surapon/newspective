@@ -224,3 +224,126 @@ function newsFileByID($id){
         return $result;
     }
 }
+
+
+/*New*/
+function QueryInformation($search,$selCompany){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT * FROM web_information where en_title like '%$search%' and type_group like '%$selCompany%'  order by id desc")){
+        return $result;
+    }
+}
+
+function informationEidt($id){
+      global $mysqli;
+    if($result = $mysqli->query("select * from web_information where id ='$id' ")){
+        if ($row = $result->fetch_assoc()) {
+                return $row;
+            }
+    }
+}
+
+function informationFile($id,$typt_data){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT *,(select count(id) from web_information_res where web_information_id ='$id') as countId  FROM web_information_res where web_information_id = '$id' and typt_data = '$typt_data' ")){
+        return $result;
+    }
+}
+
+function informationPic($id){
+    global $mysqli;
+    if($result = $mysqli->query("select a.*,b.text_data  from web_information a, web_information_res b 
+        where 
+        a.id = b.web_information_id
+        and b.id = (select min(id) FROM web_information_res where web_information_id = a.id)
+        and a.id = '$id'
+        ORDER BY id DESC LIMIT 5"))
+            {
+         if ($row = $result->fetch_assoc()) {
+                return $row["text_data"];
+            }
+    }
+}
+
+function informationType($type_group){
+	global $mysqli;
+	while($result = $mysqli->query("SELECT * FROM web_information where type_group = '$type_group'  order by id desc limit 9 ")) {
+		return $result;
+	}
+	$result->close();    
+}
+
+function informationFileFilst($news_id){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT text_data FROM web_information_res 
+            where web_information_id = '$news_id' and id =  (select min(id) from web_information_res where web_information_id = '$news_id') ")){
+            if ($row = $result->fetch_assoc()) {
+                    return $row["text_data"];
+            }
+    }
+}
+
+function informationActivitiesFetch($id){
+	global $mysqli;
+	if($result = $mysqli->query("SELECT * FROM web_information where id = '$id' ")) {
+		if ($row = $result->fetch_assoc()) {
+			return $row;
+		}
+		return $result;
+	}
+}
+
+function informationFileAj($news_id){
+	global $mysqli;
+	if($result = $mysqli->query("SELECT * FROM web_information_res 
+		where web_information_id = '$news_id' ")) {
+		return $result;
+}
+}
+
+function informationQurery($id){
+    global $mysqli;
+    if($result = $mysqli->query("select * from web_information where id = '$id' ")){
+        if ($row = $result->fetch_assoc()) {
+                return $row;
+            }
+    }
+    $result->close();
+    
+}
+
+function informationFileMore($id){
+    global $mysqli;
+    if($result = $mysqli->query("select * from web_information_res where web_information_id = '$id' ")){
+        return $result;            
+    }
+    $result->close();
+    
+}
+
+function informationLast($company){
+    global $mysqli;
+    if($result = $mysqli->query("
+            select a.*,b.text_data  from web_information a, web_information_res b 
+            where type_group = '$company'
+            and a.id = b.web_information_id
+            and b.id = (select min(id) FROM web_information_res where web_information_id = a.id)
+            ORDER BY id DESC LIMIT 5 "
+            )){
+        return $result;            
+    }
+    $result->close();
+    
+}
+
+function information_All($company){
+    global $mysqli;
+    if($result = $mysqli->query("SELECT a.*, b.text_data as fileNme FROM web_information a, web_information_res b
+        where a.id = b.web_information_id
+        and b.id = (select min(id) from web_information_res where web_information_id = a.id and type_group = '$company') 
+        ORDER BY a.id DESC ")){
+        return $result;
+    }
+    $result->close();
+}
+
