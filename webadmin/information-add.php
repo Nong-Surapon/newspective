@@ -29,6 +29,7 @@ include_once("inc_session.php");
         <!--for datepicker and use footer_picker.php-->
         <style type="text/css">
             .inputForm:first-child{display:none; }
+            .inputFormY:first-child{display:none; }
         </style>
 
     </head>
@@ -37,6 +38,12 @@ include_once("inc_session.php");
         include_once("../includes/conn.php");
         include_once("../includes/functions.php");
         include_once("nav.php");
+        
+        if(isset($_GET["save"])==1){   
+            echo '<script language="javascript">';
+            echo 'alert("Record successfully saved.")';
+            echo '</script>';
+        }
         ?>
 
         <div class="container">
@@ -57,9 +64,9 @@ include_once("inc_session.php");
                         <div class="radio">
                             <label><input type="radio" name="group" value="Newage">Newspective Newage</label>
                         </div>
-                        <div class="radio">
+                        <!--<div class="radio">
                             <label><input type="radio" name="group" value="Address">Newspective Address</label>
-                        </div>                      
+                        </div>-->                   
                     </div>
                     <div class="col-md-6"></div>
                 </div>
@@ -147,6 +154,10 @@ include_once("inc_session.php");
                        
                             
                         <table width="600" border="0">   
+                            <tr class="inputFormY" id="inputFormY">
+                                <td><input name="video_[]" type="text" class="form-control"></td>                    
+                                <td class="deleteRowY"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
+                            </tr>
                             <tr class="inputFormY" id="video1">
                                 <td><input name="video_[]" type="text" class="form-control"></td>                    
                                 <td class="deleteRowY"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>

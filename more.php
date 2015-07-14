@@ -8,8 +8,9 @@ $portfolioQurery = informationQurery($_GET["id"]);
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">       
-        <title><?php echo $portfolioQurery["en_title"];?></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="shortcut icon" href="img/logo-box-ico.ico" />
+        <title><?php echo $portfolioQurery["en_title"]; ?></title>
         <!-- Bootstrap -->
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!--custom css (Using style.scss file for customize)-->
@@ -17,7 +18,7 @@ $portfolioQurery = informationQurery($_GET["id"]);
         <!--Ion icons-->
         <link href="assets/icons/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <!--google fonts-->
-       <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
         <!--Flex slider-->
         <link href="assets/css/flexslider.css" rel="stylesheet">
         <!--popups css-->
@@ -37,16 +38,16 @@ $portfolioQurery = informationQurery($_GET["id"]);
 
     </head>
     <body class="gray-bg">
-          <!-- Static navbar -->
-        <?php include_once 'web-nav.php';?>
+        <!-- Static navbar -->
+        <?php include_once 'web-nav.php'; ?>
 
         <div class="container section-inner">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <div class="text-center">
-                        <h2 class="center-title"><?php echo $portfolioQurery["en_title"];?></h2>
+                        <h2 class="center-title"><?php echo $portfolioQurery["en_title"]; ?></h2>
                         <span class="center-border-line"></span>
-                        <p class="sub-text"><?php echo $portfolioQurery["en_desc"];?></p>
+                        <p class="sub-text"><?php echo $portfolioQurery["en_desc"]; ?></p>
                     </div>
                 </div>
             </div><!--center title row end-->
@@ -64,24 +65,28 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                 <div class="entry-media">
                                     <div class="flexslider blog-slider">
                                         <ul class="slides ">
-                                            <?php 
+                                            <?php
                                             $portfolioFile = informationFileMore($_GET["id"]);
-                                                while ($row = $portfolioFile->fetch_assoc()) {     
-                                            ?>
-                                            <li>
-                                                <img src="webadmin/file/<?php echo $row['text_data']?>" alt="">
-                                            </li><!--Single slide li-->
-                                            <?php }?>
-                                           
+                                            while ($row = $portfolioFile->fetch_assoc()) {
+                                                if ($row['typt_data'] == "photo") {
+                                                    ?>
+                                                    <li>
+                                                        <img src="webadmin/file/<?php echo $row['text_data'] ?>" alt="">
+                                                    </li><!--Single slide li-->
+                                                <?php } else { ?>
+                                                    <li class="cbp-slider-item">
+                                                        <iframe width="500" height="435" src="//<?php echo $row['text_data'] ?>" frameborder="0" allowfullscreen></iframe>
+                                                    </li>
+                                                <?php }} ?>
                                         </ul>
                                     </div>
                                 </div><!--entry media-->
-                                <h3 class="entry-title"><?php echo $portfolioQurery["en_title"];?></h3>
+                                <h3 class="entry-title"><?php echo $portfolioQurery["en_title"]; ?></h3>
                                 <h6 class="entry-author">
-                                    <?php echo $portfolioQurery["dte"]?><br><br>
-                                    <?php echo $portfolioQurery["en_desc"];?></h6>
+                                    <?php echo $portfolioQurery["dte"] ?><br><br>
+                                    <?php echo $portfolioQurery["en_desc"]; ?></h6>
                                 <p class="post-text">
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $portfolioQurery["en_detail"];?>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $portfolioQurery["en_detail"]; ?>
                                 </p>
                             </div><!--blog content-->
                         </div><!--blog entry-->
@@ -99,16 +104,16 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                     </p>
                                 </div>
                             </div><!--comment box-->
-                            <!--<div class="comment-box clearfix">
-                                <img src="assets/images/team-2.jpg" alt="">
-                                <div class="comment-text">
-                                    <span>John at 11:30 Am</span>
-                                    <a href="#">Reply</a>
-                                    <p>
-                                        In elit purus, ullamcorper vel luctus vitae, venenatis eu odio. Vivamus tincidunt, urna quis consectetur venenatis,
-                                    </p>
-                                </div>
-                            </div><!--comment box-->
+                        <!--<div class="comment-box clearfix">
+                            <img src="assets/images/team-2.jpg" alt="">
+                            <div class="comment-text">
+                                <span>John at 11:30 Am</span>
+                                <a href="#">Reply</a>
+                                <p>
+                                    In elit purus, ullamcorper vel luctus vitae, venenatis eu odio. Vivamus tincidunt, urna quis consectetur venenatis,
+                                </p>
+                            </div>
+                        </div><!--comment box-->
                         <!--</div><!--comments end-->
                         <div class="divided70"></div>
                         <div class="comment-form clearfix">
@@ -143,19 +148,18 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                 <ul class="list-unstyled latest-post">
                                     <?php
                                     $portfolioLast = informationLast($portfolioQurery["type_group"]);
-                                        while ($rowLast = $portfolioLast->fetch_assoc()) { 
-                                    
-                                    ?>
-                                    
-                                    <li class="clearfix">
-                                        <a href="more.php?id=<?php echo $rowLast["id"]?>" class="post-thumb"> <img src="webadmin/file/<?php echo $rowLast['text_data']?>" class="img-responsive" alt="<?php echo $rowLast["en_title"];?>"></a>
-                                        <div class="recent-post-content">
-                                            <a href="more.php?id=<?php echo $rowLast["id"]?>">
-                                                <?php echo $rowLast["en_title"];?>
-                                            </a>
-                                            <!--<span>John doe, 26 april 2015</span>-->
-                                        </div>
-                                    </li>
+                                    while ($rowLast = $portfolioLast->fetch_assoc()) {
+                                        ?>
+
+                                        <li class="clearfix">
+                                            <a href="more.php?id=<?php echo $rowLast["id"] ?>" class="post-thumb"> <img src="webadmin/file/<?php echo $rowLast['text_data'] ?>" class="img-responsive" alt="<?php echo $rowLast["en_title"]; ?>"></a>
+                                            <div class="recent-post-content">
+                                                <a href="more.php?id=<?php echo $rowLast["id"] ?>">
+                                                    <?php echo $rowLast["en_title"]; ?>
+                                                </a>
+                                                <!--<span>John doe, 26 april 2015</span>-->
+                                            </div>
+                                        </li>
                                     <?php } ?>
                                     <!--<li class="clearfix">
                                         <a href="#" class="post-thumb"> <img src="assets/images/work-6.jpg" class="img-responsive" alt=""></a>
@@ -166,7 +170,7 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                             <span>John doe, 26 april 2015</span>
                                         </div>
                                     </li>-->
-                                    
+
                                 </ul>
                             </div><!--sidebar widget-->
                             <!--<div class="sidebar-widget">
@@ -181,7 +185,7 @@ $portfolioQurery = informationQurery($_GET["id"]);
                                 </p>
                             </div><!--sidebar widget-->
                             <div class="sidebar-widget">    
-                                <a href="more-all.php?cpn=<?php echo $portfolioQurery["type_group"];?>" class="btn btn-lg btn-block btn-dark-bg">All PROJECT</a>    
+                                <a href="more-all.php?cpn=<?php echo $portfolioQurery["type_group"]; ?>" class="btn btn-lg btn-block btn-dark-bg">All PROJECT</a>    
                             </div>
                             <div class="sidebar-widget">
                                 <h3 class="sidebar-title">Tags</h3>
@@ -204,10 +208,10 @@ $portfolioQurery = informationQurery($_GET["id"]);
             </div><!--container-->
         </div><!--inner page content-->
 
-        <?php include_once 'web-footer.php';?>
+        <?php include_once 'web-footer.php'; ?>
 
-           
-     <!--jquery-->
+
+        <!--jquery-->
         <script src="assets/js/jquery.min.js" type="text/javascript"></script>
         <script src="assets/js/jquery-migrate.min.js" type="text/javascript"></script> 
         <script src="assets/js/moderniz.min.js" type="text/javascript"></script>

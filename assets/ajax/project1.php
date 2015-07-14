@@ -13,13 +13,22 @@ $row = informationActivitiesFetch($_GET["id"])
                 $newsFile = informationFileAj($_GET["id"]);
                 while ($nRow = $newsFile->fetch_assoc()) {
                    //echo $nRow["text_data"];
+                    
+                    if($nRow['typt_data'] == "photo"){
                 ?>
+                
                 <li class="cbp-slider-item">
                     <a href="webadmin/file/<?php echo $nRow['text_data']?>" class="cbp-lightbox">
                         <img src="webadmin/file/<?php echo $nRow['text_data']?>" alt="<?php echo $row['en_title'];?>" height="333" width="500">
                     </a>
                 </li>
-                <?php } ?>            
+                    <?php }else{?>
+                <li class="cbp-slider-item">
+                    <div class="cbp-misc-video">
+                        <iframe src="//<?php echo $nRow['text_data']?>" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </li>                
+                    <?php }} ?>            
             </ul>
         </div>
     </div>

@@ -11,6 +11,8 @@ $th_detail = $_POST["th_detail"];
 $type_group = $_POST["group"];
 $fileNme = $_POST["fileNme"];
 $countOld = $_POST["countOld"];
+$countOldY = $_POST["countOldY"];
+$countyoutube = count($_POST["video_"]);
 $count=count(($_FILES["file_"]["name"]));
 $id=$_POST["id"];
 $dte=$_POST["dte"];
@@ -91,6 +93,28 @@ for($i=1;$i < $countOld ;$i++)
            // }
         }
     }
+    
+    //for youtube
+    for($i=1; $i < $countOldY ;$i++)
+    {
+        
+        $youtube = $_POST["video_"][$i];
+        $id_temp = $_POST["id_temp"][$i];
+        
+        //echo $id_temp.$youtube."<br>";
+        
+        $mysqli->query("UPDATE web_information_res SET text_data='$youtube' where id='$id_temp' ");
+    } 
+    for($i=$countOldY; $i < $countyoutube ;$i++)
+    {
+         
+        $youtube = $_POST["video_"][$i];        
+
+        $r = $i+1;
+        $result_insert = mysqli_query($mysqli,
+        "INSERT INTO web_information_res (id,web_information_id,num,text_data,typt_data) VALUES (NULL, '$id','$r','$youtube','video')");
+    }
+
 
     $mysqli->query("UPDATE web_information SET en_title='$en_title', en_desc='$en_desc', en_detail='$en_detail', 
         th_title='$th_title', th_desc='$th_desc', th_detail='$th_detail', type_group='$type_group', dte='$dte' where id='$id' ");

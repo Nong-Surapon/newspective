@@ -29,6 +29,7 @@ include_once("inc_session.php");
     <!--for datepicker and use footer_picker.php-->
     <style type="text/css">
     .inputForm:first-child{display:none; }
+    .inputFormY:first-child{display:none;}
 
     </style>
 
@@ -60,9 +61,9 @@ include_once("inc_session.php");
                 <div class="radio">
                     <label><input type="radio" name="group" value="Newage" <?php if($newsEidt["type_group"] == "Newage"){ echo "checked";}?> >Newspective Newage</label>
                 </div>
-                <div class="radio">
-                    <label><input type="radio" name="group" value="Address" <?php if($newsEidt["type_group"] == "Address"){ echo "checked";}?> >Newspective Address</label>
-                </div>                      
+                <!--<div class="radio">
+                    <label><input type="radio" name="group" value="Address" <?php //if($newsEidt["type_group"] == "Address"){ echo "checked";}?> >Newspective Address</label>
+                </div>  -->                    
             </div>
             <div class="col-md-6"></div>
         </div>
@@ -94,7 +95,7 @@ include_once("inc_session.php");
             </div>
         </div>
         <div class="row">
-            <h3>Upload File <span class="glyphicon glyphicon-picture"></span> <span class="glyphicon glyphicon-film"></span></h3>
+            <h3>Upload File <span class="glyphicon glyphicon-picture"></span></h3>
             <br>ขนาดรูป 500*333 px<br><br>
             <table>
                 <thead>
@@ -142,23 +143,39 @@ include_once("inc_session.php");
                 </div>
                 <div class="row">
                     <h4>Youtube</h4>
-                    <p>Example : src="<font style="color:#ff0000">https://www.youtube.com/embed/GYpzzbVRrsk?list=RDzYNsQ6ibdZs</font>"<br>
+                    <p>Example : src="https://<font style="color:#ff0000">www.youtube.com/embed/GYpzzbVRrsk?list=RDzYNsQ6ibdZs</font>"<br>
                     <font style="color:#ff0000">*At least one photo for youtube</font></p>                    
                        
                             
-                        <table width="600" border="0">   
+                        <table width="800" border="0">  
+                            <tr class="inputFormY" id="inputFormY">
+                                <td></td>
+                                <td><input name="video_[]" type="text" class="form-control"></td>                    
+                                <td class="deleteRowY"><button type="button" class="btn btn-danger " ><span class="glyphicon glyphicon-trash"></span></button></td>
+                            <input name="id_temp[]" type="hidden" class="form-control">  
+                            </tr>
                             <?php
-                    $i = 0;
+                    $r = 0;
                     $informationlink = informationFile($newsEidt["id"],'video');
                     while ($youtube = $informationlink->fetch_assoc()) {
-                    $i++
+                    $r++
                     ?>
-                            <tr id="video1">
-                                <td><input name="video_[]" type="text" class="form-control" value="<?php echo $youtube["text_data"];?>"></td>                    
-                                <td class="deleteRow"><a href="delPicInfo.php?id=<?php echo $_GET['id'];?>&name=<?php echo $youtube["text_data"];?>&countId=<?php echo $youtube["countId"]?>&seq=<?php echo $i?>"  class="btn btn-danger" onclick="return confirm('Are you sure?')"><span class="glyphicon glyphicon-trash"></span></a></td>
-                            </tr>
-                    <?php }?>                            
-                        </table>
+                        <tr class="inputFormY" id="video1">
+                            <td width="300">                                
+                                <iframe src="//<?php echo $youtube["text_data"];?>" frameborder="0" allowfullscreen></iframe>                
+                            </td>
+                            <td width="500">
+                                <input name="video_[]" type="text" class="form-control" value="<?php echo $youtube["text_data"];?>">
+                                <input name="id_temp[]" type="hidden" class="form-control" value="<?php echo $youtube["id"];?>">                                
+                            </td>                    
+                            <td class="deleteRow"><a href="delYouInfo.php?id=<?php echo $youtube["id"];?>&&seq=<?php echo $r?>&&pjId=<?php echo $_GET["id"];?>" class="btn btn-danger" onclick="return confirm('Are you sure?')"><span class="glyphicon glyphicon-trash"></span></a></td>
+                        </tr>
+                    <?php }?>  
+                        <tr class="inputForm-add" id="inputForm-add">
+                            <td><input type="hidden" name="countOldY" value="<?php echo $r+1;?>"></td>                    
+                            <td class="deleteRow"><button type="button" id="add" class="addMoreRowY btn btn-default"><span class="glyphicon glyphicon-plus"></span></button></td>
+                        </tr>
+                    </table>
                       
                     <br><button type="submit" class="btn btn-default">Submit</button>
                 </div><!--row-->           
@@ -181,6 +198,20 @@ $(function(){
 
         $('td.deleteRow').click(function(){
             $(this).parent('.inputForm').remove();
+        });
+    });
+    
+    //for youtube
+    $('td.deleteRowY').click(function () {
+        $(this).parent('.inputFormY').remove();
+    });
+
+    $('.addMoreRowY').click(function () {
+        $('#inputFormY').clone(true).insertAfter('tr.inputFormY:last');
+        return false;
+
+        $('td.deleteRowY').click(function () {
+            $(this).parent('.inputFormY').remove();
         });
     });
 });

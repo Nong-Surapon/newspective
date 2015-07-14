@@ -7,8 +7,10 @@ include_once("includes/functions-web.php");
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">       
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="keywords" content="Newspective, Newage, Address, Event, Media, property">
         <title>Newspective : Make it Better</title>
+        <link rel="shortcut icon" href="img/logo-box-ico.ico" />
         <!-- Bootstrap -->
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!--custom css (Using style.scss file for customize)-->
@@ -1343,38 +1345,72 @@ include_once("includes/functions-web.php");
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12"><b>2014</b></div>
+                <div class="col-sm-12">                    
+                        <table  border="0">
+                            <tr>
+                                <td width="10px"><b>2014</b></td>
+                                <td width="200px"></td>
+                                <td width="200px"></td>
+                                <td width="200px"></td>                               
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>1. Ms. Chanita Mungmee</td>
+                                <td>Grade 10,</td>
+                                <td>Singsamut School</td>                               
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>2. Mr. Chakrapong Wongyoo</td>
+                                <td>Grade 10,</td>
+                                <td>Singsamut School</td>                               
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>3. Ms. Araya Trongyong</td>
+                                <td>Grade 11,</td>
+                                <td>Singsamut School</td>                               
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>4. Ms. Nisarat Butrdee</td>
+                                <td>Grade 12,</td>
+                                <td>Singsamut School</td>                               
+                            </tr>
+                            <tr>
+                                <td colspan="4">&nbsp;</td>                                                             
+                            </tr>
+                            <tr>
+                                <td colspan="4">Not only Hi-school but Newspective has been giving scholarship to colleage students also. They are</td>                                                             
+                            </tr>
+                            <tr>
+                                <td colspan="4">&nbsp;</td>                                                             
+                            </tr>
+                            <tr>
+                                <td><b>2014</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>1. Ms. Areerat Rungreang</td>
+                                <td>Tianjin Normal University,</td>
+                                <td>China</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>2. Ms. Suwimol Athikiat</td>
+                                <td>Boromarajonani College of Nursing,</td>
+                                <td>Chonburi</td>                               
+                            </tr>                            
+                        </table>
+                    </div>                    
+                </div>                
             </div>
-            <div class="row">                
-                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Ms. Chanita Mungmee</div>
-                <div class="col-sm-1">Grade 10,</div>
-                <div class="col-sm-3">Singsamut School</div>
-                <div class="col-sm-5"></div>
-            </div>
-            <div class="row">                
-                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Mr. Chakrapong Wongyoo</div>
-                <div class="col-sm-1">Grade 10,</div>
-                <div class="col-sm-3">Singsamut School</div>
-                <div class="col-sm-5"></div>
-            </div>
-            <div class="row">                
-                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ms. Araya Trongyong</div>
-                <div class="col-sm-1">Grade 11,</div>
-                <div class="col-sm-3">Singsamut School</div>
-                <div class="col-sm-5"></div>
-            </div>
-            <div class="row">                
-                <div class="col-sm-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Ms. Nisarat Butrdee</div>
-                <div class="col-sm-1">Grade 12,</div>
-                <div class="col-sm-3">Singsamut School</div>
-                <div class="col-sm-5"></div>
-            </div>
+
             <br>
-            <div class="row">
-                <div class="col-sm-12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Not only Hi-school but Newspective has been giving scholarship to colleage students also. They are</div>
-            </div>
-            <br>
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-sm-12"><b>2014</b></div>
             </div>
             <div class="row">                
@@ -1388,9 +1424,9 @@ include_once("includes/functions-web.php");
                 <div class="col-sm-3">Boromarajonani College of Nursing,</div>
                 <div class="col-sm-3">Chonburi</div>
                 <div class="col-sm-4"></div>
-            </div>                          
+            </div>   -->                       
         </div><!--div container-->
-        <br>
+       
 
 
         <div class="gray-cta">
@@ -1414,8 +1450,165 @@ include_once("includes/functions-web.php");
             <div class="row">
                 <div class="col-sm-12">
                     <p class="lead subtitle-center wow animated fadeIn" data-wow-delay=".1s" data-wow-delay=".1s">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective realizes the importance of learning process during college time so that we have continuously been giving opportunities to qualified college student to work with us as trainees up until now. They are…<br><br>
-                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. รอรายชื่อ-->
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newspective realizes the importance of learning process during college time so that we have continuously been giving opportunities to qualified college student to work with us as trainees up until now. They are…
+                </div>
+            </div>
+        </div>
+
+           
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">                    
+                        <table  border="0">                       
+                            <tr>
+                                <td width="10px"><b>2014</b></td>
+                                <td width="200px"></td>
+                                <td width="200px"></td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mr.Jukkapong Sason</td>
+                                <td>Rajamangala University of Technology Thanyaburi</td> 
+                            </tr>  
+                            <tr>
+                                <td colspan="3">&nbsp;</td>                                                              
+                            </tr>
+                            <tr>
+                                <td><b>2012</b></td>
+                                <td></td>
+                                <td></td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td> 
+                                <td>Ms.Kannika Choowong</td>
+                                <td>Universary of The Thai Chamber of Commerce</td>                                                             
+                            </tr>
+                            <tr>
+                                <td></td> 
+                                <td>Ms.Sayamol Chabiram</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td colspan="3">&nbsp;</td>                                                              
+                            </tr>
+                            <tr>
+                                <td><b>2011</b></td>
+                                <td></td>
+                                <td></td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Siriporn Arsa</td>
+                                <td>Khon Kaen University</td>                                                             
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mr.Somchai Chotiwan</td>
+                                <td>Universary of The Thai Chamber of Commerce</td>                                                              
+                            </tr> 
+                            <tr>
+                                <td colspan="3">&nbsp;</td>                                                              
+                            </tr>
+                             <tr>
+                                <td><b>2010</b></td>
+                                <td></td>
+                                <td></td>                                                              
+                            </tr>
+                            <tr>    
+                                <td></td>
+                                <td>Ms.Wiriya Wonglungka</td>
+                                <td>Khon Kaen University</td>                                                             
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Worranan Ratkunargor</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Saruta Siripong</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Sutthisa Podjana</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mr.Sarote Ussanawarong</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mr.Khachen Paisanviriyakul</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td colspan="3">&nbsp;</td>                                                              
+                            </tr>
+                            <tr>
+                                <td><b>2009</b></td>
+                                <td></td>
+                                <td></td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Ploypan Yodsrisurat</td>
+                                <td>Khon Kaen University</td>                                                             
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Wililuk Vongta</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Mayoora Aksonchanya</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Nuengruethai Bangnachard</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td colspan="3">&nbsp;</td>                                                              
+                            </tr>
+                            <tr>
+                                <td><b>2008</b></td>
+                                <td></td>
+                                <td></td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Sirintip Maraprasertsak</td>
+                                <td>Bangkok Universary</td>                                                             
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Orrapporn Kittihiranwat</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ms.Katesuda Tuntikul</td>
+                                <td>Khon Kaen University</td>                                                              
+                            </tr>
+                            <tr>
+                                <td colspan="3">&nbsp;</td>                                                              
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        
+                   
+                    
+                  
+           <div class="container">
+            <div class="row">
+                 <div class="col-sm-12">              
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Students who would like to join Newspective’s internship program please contact<br>
                         <br>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Miss Nuengruethai Bangnachat - Media Manager<br>

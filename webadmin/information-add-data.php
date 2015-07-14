@@ -86,7 +86,7 @@ if($result){
     
 
 	if($move){
-            header('Location: information-add.php');
+            header('Location: information-add.php?save=1');
             exit;
             
 		//echo "Success<br>";
